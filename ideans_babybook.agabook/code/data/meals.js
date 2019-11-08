@@ -38,7 +38,7 @@ module.exports = {
         "우유/유제품": "플레인 요구르트"
         
       },
-      "Foods": "쇠고기 시금치죽,소고기 시금치죽,계란 감자죽,감자 계란죽",
+      "Foods": "소고기 시금치죽,감자 계란죽",
       "img": 'grain.jpg,meat.jpg,vege.jpg,fruits.JPG,yogurt.JPG,fat.jpg,sauce.jpg'
     },
     "9,10,11": {
@@ -61,7 +61,7 @@ module.exports = {
         "유지/당류": "소량의 식물성 기름"
         
       },
-      "Foods": "쇠고기 당근 무른밥,소고기 당근 무른밥,닭살 감자 무른밥",
+      "Foods": "소고기 당근 무른밥,닭살 감자 무른밥",
       "img": 'grain.jpg,meat.jpg,vege.jpg,fruits.JPG,yogurt.JPG,fat.jpg,sauce.jpg'   
     },
     "12,13,14,15": {
@@ -81,7 +81,7 @@ module.exports = {
         "유지/당류": "소량의 식물성 견과류, 꿀",
         
       },
-      "Foods": "쇠고기 미역 진밥,소고기 미역 진밥,흰살 생선 감자진밥,시금치 두부 된장국,두부 시금치 된장국,계란 북엇국",
+      "Foods": "소고기 미역 진밥,흰살 생선 감자진밥,시금치 두부 된장국,계란 북엇국",
       "img": 'grain.jpg,vege.jpg,yogurt.JPG,fat.jpg,nuts.jpg'
     }
   },
