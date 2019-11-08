@@ -1,7 +1,7 @@
 # 아가북
 <p align="center">
   <img width=400px src="./images/logo_2.png"/>
-  <img width=500px src="./images/agabook_icon.png"/>
+  <img width=400px src="./images/agabook_icon.png"/>
 </p>
 
 ### 작은 아이디어로 세상을 바꾸어보자!
