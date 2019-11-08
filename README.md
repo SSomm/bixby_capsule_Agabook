@@ -3,7 +3,9 @@
   <img src="./images/agabook_icon.png"/>
   <img width="400px" src="./images/jiyoung.png"/>
 </p>
-"작은 아이디어로 세상을 바꾸어보자! 육아 초보자를 위해 정보를 제공하는 빅스비 캡슐을 만든 아이디언즈 팀입니다."
+
+### 작은 아이디어로 세상을 바꾸어보자!
+육아 초보자를 위해 정보를 제공하는 빅스비 캡슐을 만든 아이디언즈 팀입니다.
 
 
 ## 참고 문헌
@@ -22,7 +24,7 @@
 - 7개월 아기 이유식 알려줘
 
 <p align="center">
-  <img src="./images/example01.png"/>
+  <img src="./images/example_01.png"/>
 </p>
 
 > 예방주사 정보
@@ -32,7 +34,7 @@
 - 5개월 아기 예방접종 정보 보여줘
 
 <p align="center">
-  <img src="./images/example02.png"/>
+  <img src="./images/example_02.png"/>
 </p>
 
 
@@ -44,5 +46,5 @@
 - 10개월 남자아기 표준발육은?
 
 <p align="center">
-  <img src="./images/example03.png"/>
+  <img src="./images/example_03.png"/>
 </p>
