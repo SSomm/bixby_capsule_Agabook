@@ -39,7 +39,7 @@
 <p align="center">
   <img src="./images/example02.png"/>
 </p>
->발육표준 정보
+> 발육표준 정보
 <p align="center">
   <img src="./images/example03.png"/>
 </p>
