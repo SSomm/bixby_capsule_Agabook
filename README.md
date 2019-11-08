@@ -1,4 +1,4 @@
-#아가북
+# 아가북
 <p align="center">
   <img src="./images/agabook_icon.png"/>
   <img width="400px" src="./images/jiyoung.png"/>
