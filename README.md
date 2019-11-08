@@ -46,5 +46,5 @@
 - 10개월 남자아기 표준발육은?
 
 <p align="center">
-  <img src="./images/example_03.png"/>
+  <img src="./images/example_03_.png"/>
 </p>
