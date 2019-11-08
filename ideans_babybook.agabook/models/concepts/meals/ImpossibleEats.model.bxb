@@ -1,0 +1,19 @@
+structure (ImpossibleEats) {
+  description (먹을수있는 음식 종류와 음식들)
+
+  property (yes_no) {
+    type (YesNo)
+    min (Optional) max (One)
+  }
+
+  property (food_type) {
+    type (FoodType)
+    min (Optional) max (Many)
+  }
+
+  property (food_list) {
+    type (FoodList)
+    min (Optional) max (Many)
+  }
+
+}

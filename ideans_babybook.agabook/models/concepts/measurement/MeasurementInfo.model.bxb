@@ -1,0 +1,32 @@
+structure (MeasurementInfo) {
+  description (발육표준 결과값)
+  property (age) {
+    type(Age)
+    min (Required) max(One)
+  }
+  property (gender) {
+    type(Gender)
+    min (Required) max(One)
+  }
+
+  property (height) {
+    type (Height)
+    min (Optional) max (One)
+  }
+  property (headSize) {
+    type (HeadSize)
+    min (Optional) max (One)
+  }
+  property (weight) {
+    type (Weight)
+    min (Optional) max (One)
+  }
+  property (url) {
+    type (Url)
+    min (Required) max (One)
+  }
+  property (label) {
+    type (Label)
+    min (Required) max (One)
+  }
+}

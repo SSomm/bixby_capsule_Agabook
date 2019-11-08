@@ -1,0 +1,28 @@
+action (BeginMeasurementSearch) {
+  description (발육정보 검색 액션)
+  type(Search)
+  collect {
+    input (age) {
+      type (Age)
+      min (Required) max (One)
+
+      // prompt-behavior (AlwaysSelection)
+    }
+    input (gender) {
+      type (Gender)
+      min (Required) max (One)
+
+      // prompt-behavior (AlwaysSelection)
+    }
+    input (measurementKeyword) {
+      type(MeasurementKeyword)
+      min (Required) max(One)
+    }
+
+    input (searchKeyword) {
+      type (SearchKeyword)
+      min (Optional) max (One)
+    }
+  }
+  output (MeasurementInfo)
+}

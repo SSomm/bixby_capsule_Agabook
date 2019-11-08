@@ -1,0 +1,3 @@
+text (ResultText) {
+  description (질문에 대한 제일 첫번째 대답)
+}

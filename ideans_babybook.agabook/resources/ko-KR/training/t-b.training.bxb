@@ -1,0 +1,25 @@
+train (t-b1rg15nc2cpj14j3z226c1ezg) {
+  utterance ("[g:BeginMeasurementSearch] (14개월)[v:Age:14개월] (여아)[v:Gender:여] 평균 (키)[v:MeasurementKeyword:키] (검색해)[v:SearchKeyword:검색]")
+  plan (Y2BjUC7ISaxML8ovzUvRS0pMqkzKz8/W801NLC4tSs1NzSvxzEvLZ9DCpsgpNT0zD0llcGpiUXIGgzg2tY7pqQxS2CTcU/NSUosY1Ai4wju1sjy/KIVBEZs6iMUwJawMjAxMDMwMLEAWA5ANgwiAogIA)
+  last-modified (1572256327965)
+}
+train (t-boajaz1bk76qc5m6dt60spuj3) {
+  utterance ("[g:BeginMeasurementSearch] (5개월)[v:Age:5개월] 된 (남자)[v:Gender:남]아기의 (발육표준)[v:MeasurementKeyword:발육표준] 정보 (알려줘)[v:SearchKeyword:검색]")
+  plan (Y2BjUC7ISaxML8ovzUvRS0pMqkzKz8/W801NLC4tSs1NzSvxzEvLZ9DCpsgpNT0zD0llcGpiUXIGgzg2tY7pqQxS2CTcU/NSUosY1Ai4wju1sjy/KIVBEZs6iMUwJawMjAxMDMwMLEAWA5ANgwiAogIA)
+  last-modified (1572196411208)
+}
+train (t-bpmnoojzf6iwzatalwawivlap) {
+  utterance ("[g:BeginMeasurementSearch] (13개월)[v:Age:13개월] (여자)[v:Gender:여] 애기 (키)[v:MeasurementKeyword:키] (말해줘)[v:SearchKeyword:검색]")
+  plan (Y2BjUC7ISaxML8ovzUvRS0pMqkzKz8/W801NLC4tSs1NzSvxzEvLZ9DCpsgpNT0zD0llcGpiUXIGgzg2tY7pqQxS2CTcU/NSUosY1Ai4wju1sjy/KIVBEZs6iMUwJawMjAxMDMwMLEAWA5ANgwiAogIA)
+  last-modified (1572256861912)
+}
+train (t-bvaxnf37w1amscl3c5y59mgus) {
+  utterance ("[g:BeginMeasurementSearch] (5개월)[v:Age:5개월] (남자)[v:Gender:남] 아기의 (표준발육)[v:MeasurementKeyword:발육표준] 정보 (알려줘)[v:SearchKeyword:검색]")
+  plan (Y2BjUC7ISaxML8ovzUvRS0pMqkzKz8/W801NLC4tSs1NzSvxzEvLZ9DCpsgpNT0zD0llcGpiUXIGgzg2tY7pqQxS2CTcU/NSUosY1Ai4wju1sjy/KIVBEZs6iMUwJawMjAxMDMwMLEAWA5ANgwiAogIA)
+  last-modified (1572195742650)
+}
+train (t-bvu2cfi3vi513s2b94q5em2p5) {
+  utterance ("[g:BeginMeasurementSearch] (15개월)[v:Age:15개월] (남자)[v:Gender:남] 아기 평균 (키)[v:MeasurementKeyword:키] (알려줘)[v:SearchKeyword:검색]")
+  plan (Y2BjUC7ISaxML8ovzUvRS0pMqkzKz8/W801NLC4tSs1NzSvxzEvLZ9DCpsgpNT0zD0llcGpiUXIGgzg2tY7pqQxS2CTcU/NSUosY1Ai4wju1sjy/KIVBEZs6iMUwJawMjAxMDMwMLEAWA5ANgwiAogIA)
+  last-modified (1572255980037)
+}

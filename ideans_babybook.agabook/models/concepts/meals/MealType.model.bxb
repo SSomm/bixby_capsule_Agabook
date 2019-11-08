@@ -1,0 +1,3 @@
+text (MealType) {
+  description (이유식 혹은 특정 음식의 대한 정보를 원하는지를 받는 concept)
+}

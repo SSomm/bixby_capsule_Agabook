@@ -1,0 +1,21 @@
+structure (VaccineInfo) {
+  description (백신 정보 전체를 담을 structure)
+  property (vacName) {
+    type (VacName)
+    min (Required) max (Many)
+  }
+   property (vacVirusName) {
+    type (VacVirusName)
+    min (Required) max (Many)
+  }
+
+  property (age) {
+    type(Age)
+    min (Required) max (One)
+  }
+
+  property (vacDescription) {
+    type (VacDescription)
+    min (Required) max (One)
+  }
+}

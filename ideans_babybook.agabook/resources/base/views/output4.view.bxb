@@ -1,0 +1,41 @@
+// 결과를 화면에 보여주는 방식을 설정하는 파일 (https://bixbydevelopers.com/dev/docs/reference/type/result-view)
+result-view {
+  match: VaccineInfo(this)
+  
+  message {
+    template ("[#{value(this.age)}] 아기 예방주사 접종 항목입니다."){
+      speech ("[#{value(this.vacVirusName)}] 예방접종 등을 하셔야 합니다.")
+    }
+  }
+  
+  render {
+    
+    if(size(this)>=1){
+      list-of(this){
+      
+        where-each (item){
+          layout-macro (result_details4){
+             param (vacVirusName){
+              expression (item.vacVirusName)
+             }
+             param (vacName){
+              expression (item.vacName)
+              }
+               param (vacDescription){
+              expression (item.vacDescription)
+              }
+            
+          }
+          
+        }      
+      }    
+    }
+    else{
+      layout-macro (result_details9)
+    }
+
+  }
+}
+    
+
+

@@ -1,0 +1,3 @@
+text (VacName) {
+  description (예방접종이름에 대한 정보가 담길 concepts)
+}

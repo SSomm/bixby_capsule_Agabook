@@ -1,0 +1,65 @@
+structure (MealsInfo) {
+  description (이유식 정보 관련 return)
+  
+  // 직각적인 대답 text
+  property (resultText) {
+    type (ResultText)
+    min (Optional) max (One)
+  }
+
+  // input으로 입력된 나이
+  property (age) {
+    type (Age)
+    min (Optional) max (One)
+  }
+  
+  // 먹을수 있는건지 아닌지 알려주는 flag
+  property (this_yes_no) {
+    type (YesNo)
+    min (Optional) max (One)
+  }
+
+  // 이유식 혹은 음식명
+  property (meal_type) {
+    type (MealType)
+    min (Optional) max (Many)
+  }
+   property (meal_img) {
+    type (MealImg)
+    min (Optional) max (Many)
+  }
+
+  // 이유식 재료
+  property (prep_info) {
+    type (PrepInfo)
+    min (Optional) max (One)
+  }
+
+  // 이유식정보
+  property (food_info) {
+    type (FoodInfo)
+    min (Optional) max (Many)
+  }
+  
+  // 레시피 스탭 
+  property (recipeSteps) {
+    type (RecipeSteps)
+    min (Optional) max (Many)
+  }
+
+ // 특정음식 검색시 먹는 음식 list
+  property (possibleEats) {
+    type (PossibleEats)
+    min (Optional) max (Many)
+  }
+
+  // 특정음식 검색시 먹지 못하는 음식 list
+  property (impossibleEats) {
+    type (ImpossibleEats)
+    min (Optional) max (Many)
+  }
+
+
+
+  
+}

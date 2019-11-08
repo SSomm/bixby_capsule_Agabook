@@ -1,0 +1,5 @@
+train (t-x0ph9tslatkq9o7mq65v4j5qq) {
+  utterance ("[g:ideans_babybook.agabook.meals] (6개월)[v:ideans_babybook.agabook.Age:6개월] (사과)[v:ideans_babybook.agabook.Foods] (먹어도 돼)[v:ideans_babybook.agabook.SearchKeyword:검색]?")
+  plan (Y2BlUMxMSU3MK45PSkyqTMrPz9ZLTE8E076piTnFnnlp+QyyuJTkgpQwSOOSdkxPxa3XLT8/pZhBFZd0cGpiUXKGd2pleX5RCgMLAyMDEwMzkGYAsiAQBpDkAA==)
+  last-modified (1572938605534)
+}

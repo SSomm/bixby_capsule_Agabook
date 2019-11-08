@@ -1,0 +1,77 @@
+// 결과를 화면에 보여주는 방식을 설정하는 파일 (https://bixbydevelopers.com/dev/docs/reference/type/result-view)
+result-view {
+  
+ match: MeasurementInfo(this)
+
+  message {
+    template ("[#{value(this.age)}] [#{value(this.gender)}]아 평균 [#{value(this.label)}] 정보 입니다."){
+     speech ("[#{value(this.age)}] [#{value(gender)}]아 평균 [#{value(this.label)}] 정보 입니다.")
+   }
+ }
+  render {
+   if (!exists(this.height) && !exists(this.headSize) ){ //&& exists(this.url) && exists(this.label) && exists(this.age) && exists(this.gender)) {
+     layout-macro (result_details6) {
+
+       param (weight){
+         expression (this.weight)
+       }
+        param (url){
+         expression (this.url)
+       }
+
+      }
+   } else-if (!exists(this.weight) && !exists(this.headSize)) {
+     layout-macro (result_details7) {
+
+       param (height){
+         expression (this.height)
+       }
+        param (url){
+         expression (this.url)
+       }
+      
+     }
+   }else-if (!exists(this.weight) && !exists(this.height)){
+     layout-macro (result_details8){
+     
+        param (headSize){
+         expression (this.headSize)
+       }
+         param (url){
+         expression (this.url)
+       }
+     }
+   }else{
+     layout-macro (result_details3){
+      
+       param (weight){
+         expression (this.weight)
+       }
+       param (height){
+         expression (this.height)
+       }
+        param (headSize){
+         expression (this.headSize)
+       }
+       param (gender){
+         expression (this.gender)
+       }
+       param (age){
+         expression (this.age)
+       }
+       param (url){
+         expression (this.url)
+       }
+  
+ 
+   }
+   }
+ }
+ 
+//  conversation-drivers{
+//    conversation-driver{
+//      template ("[#{value(age)} #{value(gender)}아 표준 발달수준 알려줘.]")
+//  }
+//}
+ 
+}

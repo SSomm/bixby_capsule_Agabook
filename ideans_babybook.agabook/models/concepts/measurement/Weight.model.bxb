@@ -1,0 +1,3 @@
+decimal (Weight) {
+  description (몸무게 정보)
+}

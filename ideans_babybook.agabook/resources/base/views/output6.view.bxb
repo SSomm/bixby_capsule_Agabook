@@ -1,0 +1,22 @@
+// result-view {
+//   match : VaccineINfoDetail(vaccineINfoDetail)
+
+//   message {
+//     template ("test")
+//   }
+
+//   render {
+//     layout {
+//       section {
+//         content {
+//           single-line {
+//             text {
+//               value("#{value(vacDescription)}")
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+
+// }

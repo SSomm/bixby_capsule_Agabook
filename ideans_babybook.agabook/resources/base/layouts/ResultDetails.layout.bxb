@@ -1,0 +1,52 @@
+layout-macro-def(result_details) {
+  params{
+     param(foodtype){
+        type(FoodType)
+      }
+      param(foodlist){
+        type(FoodList)
+      }
+  }
+ content {
+
+     thumbnail-card{
+         title-area{
+           halign (Start)
+           slot1{
+             text{
+               value("[#{value(foodtype)}]")
+               style(Title_S)
+             }
+           }
+           slot2{
+             paragraph{
+               value("[#{value(foodlist)}]")
+               style(Detail_M)
+             }
+           }
+           slot3{
+             paragraph{
+               value("")
+             }
+           }
+         }
+         image-url("images/apple.jpg")
+        
+       }
+  //  }else{
+  //    paragraph{
+  //      value("[#{value(foodlist)}]")
+  //      style(Title_M)
+  //    }
+  //  }
+       
+       // paragraph{
+       //   value("아아아")
+       // }
+      //  : #{value(possibleEats.food_list[0])}
+      
+     }
+ //   }
+ // }
+}
+ 

@@ -1,0 +1,21 @@
+action (BeginVaccineSearch) {
+  description (백신 검색 시작)
+  type(Search)
+  collect {
+    input (age) {
+      type (Age)
+      min (Optional) max (One)
+    }
+
+    input (vaccineKeyword) {
+      type(VaccineKeyword)
+      min (Optional) max(Many)
+    }
+
+    input (searchKeyword) {
+      type(SearchKeyword)
+      min (Optional) max (One)
+    }
+  }
+  output (VaccineInfo)
+}

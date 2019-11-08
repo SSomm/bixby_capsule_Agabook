@@ -1,0 +1,38 @@
+action (meals) {
+  type(Search)
+  description (개월수별 아이의 이유식을 조회합니다.)
+  collect {
+    //text
+    input (age) {
+      type (Age)
+      min (Optional) max (One)
+    }
+
+    // // 특정음식인지 그냥 이유식으로 물어보지는지
+    // input (searchType) {
+    //   type (MealType)
+    //   min (Optional) max (One)
+    // }
+
+    // 특정음식인지 그냥 이유식으로 물어보지는지
+    input (foods) {
+      type (Foods)
+      min (Optional) max (One)
+    }
+
+    // enum - 레시피 vocab
+    input (recipeKey) {
+      type (RecipeKeyword)
+      min (Optional) max (One)
+    }
+
+    // enum - 검색 vocab
+    input (searchKey) {
+      type (SearchKeyword)
+      min (Optional) max (One)
+    }
+
+
+  }
+  output (MealsInfo)
+}

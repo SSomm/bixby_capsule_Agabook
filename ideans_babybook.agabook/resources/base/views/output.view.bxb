@@ -1,0 +1,146 @@
+// 결과를 화면에 보여주는 방식을 설정하는 파일 (https://bixbydevelopers.com/dev/docs/reference/type/result-view)
+result-view {
+ match: MealsInfo(this)
+  message {
+    if(exists(this.possibleEats)){
+      template ("[#{value(age)} 아기는 #{value(meal_type)}을(를) #{value(this_yes_no)}.]"){
+      speech("[#{value(age)} 아기는 #{value(meal_type)}을(를) #{value(this_yes_no)}.] 아래에서 추가로 먹을 수 있는 식품을 확인해보세요.")
+   }
+    }else-if (exists(this.recipeSteps)){
+      template ("[#{value(meal_type)} 레시피 정보입니다.]"){
+      speech("아래에서 요리법을 참고하세요.")
+    }
+    }else{
+      template ("[#{value(age)} 아기 이유식 정보입니다.]"){
+      speech("[대표 이유식은 #{value(meal_type)} 입니다.]")
+    }
+ }
+  }
+  render {
+   if(exists(this.possibleEats)){
+        layout{
+          section{
+            content{
+              single-line{
+                text("먹을 수 있는 식품")
+              }
+              divider
+              for-each (possibleEats.food_type){
+                as (type){
+                  if(i!=size(type)){
+                  //   single-line{
+                  //   text("[#{value(type)}]")
+                  // }
+                  thumbnail-card{
+                  image-position (Start)
+                  // aspect-ratio(21:9)
+                  // column-size (Three)
+                  title-area{
+                    slot1{
+                      text{
+                        value("#{value(type)}")
+                        style(Title_S)
+                      }
+                    }
+                    slot2{
+                     paragraph{
+                       value("[#{value(possibleEats.food_list[i])}]")
+                       style(Detail_L)
+                     }                     
+                  }
+                  }
+                   image-url("images/#{value(meal_img[i])}")
+                  
+                  }                 
+                }
+                }
+              }
+            }
+          }
+        }
+   }
+   else-if (exists(this.recipeSteps)){
+     layout{
+       section{
+         content{
+
+           paragraph{
+             value("[재료: #{value(prep_info)}]")
+             style(Title_XS)
+           }
+           divider
+           image{
+             aspect-ratio(4:3)
+                 url("[images/#{value(this.meal_img)}]")
+               }
+           for-each (recipeSteps.recipeSteps){
+             as(step){
+               title-card{
+                 title-area{
+                   slot1{
+                     text{
+                       value("#{value(step)}")
+                       style(Title_S)
+                     }
+                     
+                   }
+                 }
+               }
+              
+               
+             }
+           }
+         }
+       }
+     }
+
+   }else{
+     layout{
+       section{
+         content{
+           paragraph{
+             value("[#{value(meal_type)}이 있습니다.]")
+             style(Title_XS)
+           }
+           divider
+           for-each (meal_type){
+             as(meal){
+               image-card{
+             aspect-ratio(1:1)
+             column-size (Two)
+             title-area{
+               slot1{
+                 text("[#{value(meal)}]")
+               }
+             }
+             image-url("images/[#{value(meal_img[i])}]")
+           }
+             }
+           }
+           
+         }
+       }
+     }
+
+   }
+}
+ 
+
+ conversation-drivers{
+   if(exists(this.possibleEats)){
+     conversation-driver{
+     template ("[#{value(age)}] 아기 이유식 알려줘.")
+    }
+   }  
+   else-if (exists(this.recipeSteps)){
+     conversation-driver{
+     template ("6개월 아기 사과 먹어도 돼?")
+    }
+   }
+   else{
+     conversation-driver{
+     template ("#{value(meal_type[1])} 레시피 알려줘.")
+    }
+   }
+}
+}

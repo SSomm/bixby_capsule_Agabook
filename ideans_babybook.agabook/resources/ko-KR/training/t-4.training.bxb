@@ -1,0 +1,10 @@
+train (t-4bljahuvammhiswihww82lu43) {
+  utterance ("[g:meals] (6개월)[v:Age:6개월] (복숭아)[v:Foods] (먹을 수 있어)[v:SearchKeyword:검색]?")
+  plan (Y2BlUMxMSU3MK45PSkyqTMrPz9ZLTE8E076piTnFnnlp+QyyuJTkgpQwSOOSdkxPxa3XLT8/pZhBFZd0cGpiUXKGd2pleX5RCgMLAyMDEwMzkGYAsiAQBpDkAA==)
+  last-modified (1572270954576)
+}
+train (t-4mbtfizribf480zwxq8vb7oxp) {
+  utterance ("[g:meals] (계란 북엇국)[v:Foods] (레서피)[v:RecipeKeyword:레시피] (알려줘)[v:SearchKeyword:검색]")
+  plan (Y2BlUMxMSU3MK45PSkyqTMrPz9ZLTE8E076piTnFnnlp+QyyuJTkgpTglnbLz08pZlDFJR2UmpxZkOqdWlmeX5SCW1lwamJRcgZMGQsDIwMTAzOQZgCyIBAGkOQA)
+  last-modified (1572270987769)
+}

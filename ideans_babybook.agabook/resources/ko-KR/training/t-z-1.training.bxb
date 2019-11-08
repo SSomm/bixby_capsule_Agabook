@@ -1,0 +1,15 @@
+train (t-z39ifizypn05yakozsryl9wg9) {
+  utterance ("[g:BeginMeasurementSearch] (13)[v:Age:13개월] 달 (남자)[v:Gender:남] 아기 (몇키로)[v:MeasurementKeyword:체중]여야 정상이야")
+  plan (Y2BlUC7ISaxML8ovzUvRS0pMqkzKz8/W801NLC4tSs1NzSvxzEvLZ9DCpsgpNT0zD0llcGpiUXIGgzg2tY7pqQxS2CTcU/NSUosY1Ai4wju1sjy/KIWBhYGRgYmBGUgzAFkQCANIcgA=)
+  last-modified (1572261126857)
+}
+train (t-z3hhswvtcwpxlvi8msepjhg4q) {
+  utterance ("[g:BeginMeasurementSearch] (12개월)[v:Age:12개월] (남자)[v:Gender:남] 아기 (표준발육)[v:MeasurementKeyword:발육표준] (찾아줘)[v:SearchKeyword:검색]")
+  plan (Y2BjUM9MSU3MK45PSkyqTMrPz9ZLTE8E076picWlRam5qXklnnlp+Qx6uBQ6paZn5iGpDk5NLErOYJDGpd4xPZVBDpeke2peSmoRgxYRrvJOrSzPL0phUMWlFuIQmDJWBkYGJgZmBhYgiwHIhkEEQFEBAA==)
+  last-modified (1572272531845)
+}
+train (t-zfx168n1unami7yixopti8mt4) {
+  utterance ("[g:BeginMeasurementSearch] (열네달)[v:Age:14개월] (남자)[v:Gender:남] 아기 (발육)[v:MeasurementKeyword:발육표준] 평균 (가르쳐줘)[v:SearchKeyword:검색]")
+  plan (Y2BjUM9MSU3MK45PSkyqTMrPz9ZLTE8E076picWlRam5qXklnnlp+Qx6uBQ6paZn5iGpDk5NLErOYJDGpd4xPZVBDpeke2peSmoRgxYRrvJOrSzPL0phUMWlFuIQmDJWBkYGJgZmBhYgiwHIhkEEQFEBAA==)
+  last-modified (1572272460652)
+}

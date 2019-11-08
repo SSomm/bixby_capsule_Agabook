@@ -1,0 +1,5 @@
+train (t-n6x4q87g996flje5oloklyx20) {
+  utterance ("[g:BeginMeasurementSearch] (10개월)[v:Age:10개월] (남자)[v:Gender:남]아이의 (체중)[v:MeasurementKeyword:체중]이 (궁금합니다)[v:SearchKeyword:검색].")
+  plan (Y2BjUC7ISaxML8ovzUvRS0pMqkzKz8/W801NLC4tSs1NzSvxzEvLZ9DCpsgpNT0zD0llcGpiUXIGgzg2tY7pqQxS2CTcU/NSUosY1Ai4wju1sjy/KIVBEZs6iMUwJawMjAxMDMwMLEAWA5ANgwiAogIA)
+  last-modified (1572265868710)
+}

@@ -1,0 +1,10 @@
+train (t-gnobnpnvdc2xu16oyb6xgauvx) {
+  utterance ("[g:BeginMeasurementSearch] (12개월)[v:Age:12개월] (여자)[v:Gender:여] 아이 (키)[v:MeasurementKeyword:키] (뭐야)[v:SearchKeyword:검색]")
+  plan (Y2BjUC7ISaxML8ovzUvRS0pMqkzKz8/W801NLC4tSs1NzSvxzEvLZ9DCpsgpNT0zD0llcGpiUXIGgzg2tY7pqQxS2CTcU/NSUosY1Ai4wju1sjy/KIVBEZs6iMUwJawMjAxMDMwMLEAWA5ANgwiAogIA)
+  last-modified (1572254985554)
+}
+train (t-gw6j9tdwhq16gfe0kw12eto9r) {
+  utterance ("[g:BeginMeasurementSearch] (8개월)[v:Age:8개월] (남아)[v:Gender:남] 평균 (키)[v:MeasurementKeyword:키] (검색)[v:SearchKeyword:검색]")
+  plan (Y2BjUM9MSU3MK45PSkyqTMrPz9ZLTE8E076picWlRam5qXklnnlp+Qx6uBQ6paZn5iGpDk5NLErOYJDGpd4xPZVBDpeke2peSmoRgxYRrvJOrSzPL0phUMWlFuIQmDJWBkYGJgZmBhYgiwHIhkEEQFEBAA==)
+  last-modified (1572271610569)
+}

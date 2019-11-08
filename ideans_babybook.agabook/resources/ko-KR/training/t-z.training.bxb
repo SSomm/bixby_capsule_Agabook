@@ -1,0 +1,5 @@
+train (t-z3zohankf3fry4exx38qc4vdy) {
+  utterance ("[g:BeginMeasurementSearch] (열한달)[v:Age:11개월] (여자)[v:Gender:여] 아기 표준 (무게)[v:MeasurementKeyword:체중](는)[v:SearchKeyword:검색]")
+  plan (Y2BjUC7ISaxML8ovzUvRS0pMqkzKz8/W801NLC4tSs1NzSvxzEvLZ9DCpsgpNT0zD0llcGpiUXIGgzg2tY7pqQxS2CTcU/NSUosY1Ai4wju1sjy/KIVBEZs6iMUwJawMjAxMDMwMLEAWA5ANgwiAogIA)
+  last-modified (1572265797534)
+}

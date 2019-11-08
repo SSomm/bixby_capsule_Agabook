@@ -1,0 +1,46 @@
+layout-macro-def(result_details6) {
+  params{
+    // param (label){
+    //   type (Label)
+    //   min (Optional) max (One)
+    // }
+    param (weight){
+      type (Weight)
+    }
+    param (url){
+      type (Url)
+    }
+  }
+  content {
+   section {  // this macro returns a "section"
+     content {
+       paragraph {
+         value ("[평균 체중 #{value(weight)}kg]")
+         style (Title_M)
+       }
+       image-card{
+        aspect-ratio(4:3)
+        title-area{
+          halign (Start)
+          slot1{
+            text{
+              value("")
+              style(Title_L)
+            }
+          }
+          slot2{
+            single-line{
+              text{
+                value("")
+                style(Detail_L)
+              }
+            }
+          }
+        }
+        image-url("[images/#{value(url)}]")
+      }
+     }
+   }
+ }
+}
+ 

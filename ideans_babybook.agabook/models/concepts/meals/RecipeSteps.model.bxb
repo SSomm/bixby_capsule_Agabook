@@ -1,0 +1,8 @@
+structure (RecipeSteps) {
+  description (레시피에 대한 정보를 알려줍니다.)
+  
+  property (recipeSteps) {
+    type (FoodInfo)
+    min (Optional) max (Many)
+  }
+}

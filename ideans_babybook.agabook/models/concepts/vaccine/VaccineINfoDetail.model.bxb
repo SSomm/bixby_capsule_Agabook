@@ -1,0 +1,15 @@
+structure  (VaccineINfoDetail) {
+    property (vacDescription){
+    type(VacDescription)
+    min (Optional) max(One)
+  }
+  property (vacName){
+    type(VacName)
+    min (Optional) max (Many)
+  }
+  property (vacVirusName){
+    type(VacVirusName)
+    min (Optional) max(Many)
+  }
+  description (__DESCRIPTION__)
+}

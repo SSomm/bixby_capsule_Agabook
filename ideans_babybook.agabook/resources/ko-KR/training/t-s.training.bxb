@@ -1,0 +1,15 @@
+train (t-s0kkatcdxyx08rm68iayf7v9k) {
+  utterance ("[g:BeginMeasurementSearch] (14개월)[v:Age:14개월] 아이 평균 (키)[v:MeasurementKeyword:키] (보여줘)[v:SearchKeyword:검색]")
+  plan (Y2BjUM9MSU3MK45PSkyqTMrPz9ZLTE8E076picWlRam5qXklnnlp+Qx6uBQ6paZn5iGpDk5NLErOYJDGpd4xPZVBDpeke2peSmoRgxYRrvJOrSzPL0phUMWlFuIQmDJWBkYGJgZmBhYgiwHIhkEEYAGrAMsDAA==)
+  last-modified (1572272600569)
+}
+train (t-sn526wbdmbxq7hsabd7dx98k0) {
+  utterance ("[g:meals] (시금치 두부 된장국)[v:Foods] (만드는 법)[v:RecipeKeyword:레시피] (알려줘)[v:SearchKeyword:검색]")
+  plan (Y2BlkC3ISaxML8ovzUvRS0pMqkzKz8/W801NzCn2zEvLZ5DEJp0LksYu5Zafn1LMoIhNKig1ObMg1Tu1sjy/KAW7kuDUxKLkDJgSFgZGBiYGZiDNAGRBIAwgyQEA)
+  last-modified (1572260173244)
+}
+train (t-svowu0ng662do9r9zkdif5egf) {
+  utterance ("[g:meals] (5개월)[v:Age:5개월] (치즈)[v:Foods] (먹을 수 있어)[v:SearchKeyword:검색]?")
+  plan (Y2BlkC3ISaxML8ovzUvRS0pMqkzKz8/W801NzCn2zEvLZ5DEJp0LkmYQxyblmJ6KXY9bfn5KMYMiNqng1MSi5Azv1Mry/KIUBhYGRgYmBmYgzQBkQSAMIMkBAA==)
+  last-modified (1572260792387)
+}

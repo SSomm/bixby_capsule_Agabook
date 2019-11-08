@@ -1,0 +1,10 @@
+train (t-yg896juv3wu578uabb0vskwkw) {
+  utterance ("[g:BeginMeasurementSearch] (11)[v:Age:11개월] (여자)[v:Gender:여] 아기 (표준발육)[v:MeasurementKeyword:발육표준] (검색해줘)[v:SearchKeyword:검색]")
+  plan (Y2BjUM9MSU3MK45PSkyqTMrPz9ZLTE8E076picWlRam5qXklnnlp+Qx6uBQ6paZn5iGpDk5NLErOYJDGpd4xPZVBDpeke2peSmoRgxYRrvJOrSzPL0phUMWlFuIQmDJWBkYGJgZmBhYgiwHIhkEEQFEBAA==)
+  last-modified (1572272501068)
+}
+train (t-ypjwsc0hz6kymzh04l45l76pw) {
+  utterance ("[g:BeginMeasurementSearch] (열세 달)[v:Age:13개월] (여자)[v:Gender:여] 아기 (표준발육)[v:MeasurementKeyword:발육표준] (찾아줘)[v:SearchKeyword:검색]")
+  plan (Y2BjUC7ISaxML8ovzUvRS0pMqkzKz8/W801NLC4tSs1NzSvxzEvLZ9DCpsgpNT0zD0llcGpiUXIGgzg2tY7pqQxS2CTcU/NSUosY1Ai4wju1sjy/KIVBEZs6iMUwJawMjAxMDMwMLEAWA5ANgwiAogIA)
+  last-modified (1572257098017)
+}

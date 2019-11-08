@@ -1,0 +1,5 @@
+train (t-px3u8d1xxo0cwma3atedqu5b8) {
+  utterance ("[g:BeginVaccineSearch] (36개월)[v:Age:36개월] (예방접종)[v:VaccineKeyword:예방접종] (알려줘)[v:SearchKeyword:검색]")
+  plan (Y2BlUM5MSU3MK45PSkyqTMrPz9ZLTE8E02GJycmZeameeWn5DFq4FDmlpmfmQVUGpyYWJWcwSONS65ieyqCKSxKi2Tu1sjy/KIVBjYCjYOpYGBgZmBiYgTQDkAWBMIAkBwA=)
+  last-modified (1572272913388)
+}

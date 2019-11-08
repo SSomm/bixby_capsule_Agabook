@@ -1,0 +1,15 @@
+train (t-65gsj4l24w2lcu8s8w6kzsxc2) {
+  utterance ("[g:BeginMeasurementSearch] (여자)[v:Gender:여] 애기 (14개월)[v:Age:14개월] (머리크기)[v:MeasurementKeyword:머리둘레] (얼마야)[v:SearchKeyword:검색]")
+  plan (Y2BjUC7ISaxML8ovzUvRS0pMqkzKz8/W801NLC4tSs1NzSvxzEvLZ9DCpsgpNT0zD0llcGpiUXIGgzg2tY7pqQxS2CTcU/NSUosY1Ai4wju1sjy/KIVBEZs6iMUwJawMjAxMDMwMLEAWA5ANgwiAogIA)
+  last-modified (1572258393449)
+}
+train (t-6bmhry1vpvbpk7gusgugqxnqz) {
+  utterance ("[g:BeginVaccineSearch] (36개월)[v:Age:36개월]에 맞는 (예방접종)[v:VaccineKeyword:예방접종] (알려줘)[v:SearchKeyword:검색]")
+  plan (Y2BlUM5MSU3MK45PSkyqTMrPz9ZLTE8E02GJycmZeameeWn5DFq4FDmlpmfmQVUGpyYWJWcwSONS65ieyqCKSxKi2Tu1sjy/KIVBjYCjYOpYGBgZmBiYgTQDkAWBMIAkBwA=)
+  last-modified (1572273036207)
+}
+train (t-6upeg9j3t4aiov85cnii2fj1o) {
+  utterance ("[g:BeginMeasurementSearch] (12달)[v:Age:12개월] (남자)[v:Gender:남] 아기 평균 (머리둘레)[v:MeasurementKeyword:머리둘레] (가르쳐줘)[v:SearchKeyword:검색]")
+  plan (Y2BjUC7ISaxML8ovzUvRS0pMqkzKz8/W801NLC4tSs1NzSvxzEvLZ9DCpsgpNT0zD0llcGpiUXIGgzg2tY7pqQxS2CTcU/NSUosY1Ai4wju1sjy/KIVBEZs6iMUwJawMjAxMDMwMLEAWA5ANgwiAogIA)
+  last-modified (1572258155017)
+}

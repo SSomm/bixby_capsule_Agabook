@@ -1,0 +1,4 @@
+enum (RecipeKeyword) {
+  description (레시피에 대한 vocab)
+  symbol (레시피)
+}

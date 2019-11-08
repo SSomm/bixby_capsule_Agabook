@@ -1,0 +1,3 @@
+text (FoodInfo) {
+  description (레시피 스탭 혹은 해당개월 음식에 대한 설명)
+}

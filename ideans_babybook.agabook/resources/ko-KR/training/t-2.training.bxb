@@ -1,0 +1,10 @@
+train (t-21olqry255pgu4kb83rjncvvn) {
+  utterance ("[g:meals] (9개월)[v:Age:9개월] (빵)[v:Foods] (먹을수있어)[v:SearchKeyword:검색]?")
+  plan (Y2BlUMxMSU3MK45PSkyqTMrPz9ZLTE8E076piTnFnnlp+QyyuJTkgpQwSOOSdkxPxa3XLT8/pZhBFZd0cGpiUXKGd2pleX5RCgMLAyMDEwMzkGYAsiAQBpDkAA==)
+  last-modified (1572270833465)
+}
+train (t-2eqwhy96ijh5zgsvglb3kpx40) {
+  utterance ("[g:BeginMeasurementSearch] (7개월)[v:Age:7개월] (남자)[v:Gender:남] 아기 (표준발육)[v:MeasurementKeyword:발육표준](은)[v:SearchKeyword:검색]?")
+  plan (Y2BjUM9MSU3MK45PSkyqTMrPz9ZLTE8E076picWlRam5qXklnnlp+Qx6uBQ6paZn5iGpDk5NLErOYJDGpd4xPZVBDpeke2peSmoRgxYRrvJOrSzPL0phUMWlFuIQmDJWBkYGJgZmBhYgiwHIhkEEQFEBAA==)
+  last-modified (1572272665196)
+}

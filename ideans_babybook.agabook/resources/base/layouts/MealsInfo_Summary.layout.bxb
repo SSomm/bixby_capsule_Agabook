@@ -1,0 +1,50 @@
+// layout {
+//   match: MealsInfo (this)
+//   mode (Summary)
+
+//   content {
+//     section {
+//       content {
+
+//         // paragraph {
+//         //   value ("[#{value(this.title)}]")
+//         //   //style (Title_L)
+//         // }
+
+//         paragraph {
+//           value ("#{value(this.age)}")
+//         }
+        
+//         paragraph {
+//           value ("#{value(this.this_yes_no)}")
+//         }
+//         paragraph {
+//           value ("#{value(this.meal_type)}")
+//         }
+//         paragraph {
+//           value ("#{value(this.prep_info)}")
+//         }
+//         paragraph {
+//           value ("#{value(this.food_info)}")
+//         }
+
+//         paragraph {
+//           value ("#{value(this.recipeSteps)}")
+//         }
+
+
+//         paragraph {
+//           value ("#{value(this.possibleEats)}")
+//         }
+
+//         paragraph {
+//           value ("#{value(this.impossibleEats)}")
+//         }
+        
+
+
+    
+//       }
+//     }
+//   }
+// }

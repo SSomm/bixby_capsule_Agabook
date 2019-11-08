@@ -1,0 +1,10 @@
+train (t-t5wbtw0ra228opkv7ft1q5k9h) {
+  utterance ("[g:BeginMeasurementSearch] (8개월)[v:Age:8개월] (여자)[v:Gender:여] 애기 평균 (키)[v:MeasurementKeyword:키] (가리켜줘)[v:SearchKeyword:검색]")
+  plan (Y2BjUC7ISaxML8ovzUvRS0pMqkzKz8/W801NLC4tSs1NzSvxzEvLZ9DCpsgpNT0zD0llcGpiUXIGgzg2tY7pqQxS2CTcU/NSUosY1Ai4wju1sjy/KIVBEZs6iMUwJawMjAxMDMwMLEAWA5ANgwiAogIA)
+  last-modified (1572257451704)
+}
+train (t-tsmpbcmhrtdbjcsfn5yxbwbtk) {
+  utterance ("[g:BeginMeasurementSearch] (15개월)[v:Age:15개월] (남아)[v:Gender:남] 평균 (키)[v:MeasurementKeyword:키] (가르켜줘)[v:SearchKeyword:검색]")
+  plan (Y2BjUC7ISaxML8ovzUvRS0pMqkzKz8/W801NLC4tSs1NzSvxzEvLZ9DCpsgpNT0zD0llcGpiUXIGgzg2tY7pqQxS2CTcU/NSUosY1Ai4wju1sjy/KIVBEZs6iMUwJawMjAxMDMwMLEAWA5ANgwiAogIA)
+  last-modified (1572256143819)
+}

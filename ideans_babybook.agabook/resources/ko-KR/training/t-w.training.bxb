@@ -1,0 +1,5 @@
+train (t-wswmfxkg4vsqza3y8ys62bfjt) {
+  utterance ("[g:meals] (시금치 두부 된장국)[v:Foods] (만드는법)[v:RecipeKeyword:레시피] (알려줘)[v:SearchKeyword:검색]")
+  plan (Y2BlkC3ISaxML8ovzUvRS0pMqkzKz8/W801NzCn2zEvLZ5DEJp0LksYu5Zafn1LMoIhNKig1ObMg1Tu1sjy/KAW7kuDUxKLkDJgSFgZGBiYGZiDNAGRBIAwgyQEA)
+  last-modified (1572264226738)
+}

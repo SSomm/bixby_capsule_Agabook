@@ -1,0 +1,3 @@
+text (MealImg) {
+  description ("이유식 레시피 대표 이미지")
+}

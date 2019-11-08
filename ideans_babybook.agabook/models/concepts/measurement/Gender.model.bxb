@@ -1,0 +1,5 @@
+enum (Gender) {
+  description (발육표준에 조회를 위한 성별)
+  symbol (남)
+  symbol (여)
+}

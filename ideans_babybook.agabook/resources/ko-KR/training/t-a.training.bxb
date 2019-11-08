@@ -1,0 +1,15 @@
+train (t-aa9qwodwfa8vavgvel3h5as38) {
+  utterance ("[g:BeginMeasurementSearch] (5개월)[v:Age:5개월] (남자)[v:Gender:남] 아기 평균 (키)[v:MeasurementKeyword:키] 정보 (알려줘)[v:SearchKeyword:검색]")
+  plan (Y2BjUC7ISaxML8ovzUvRS0pMqkzKz8/W801NLC4tSs1NzSvxzEvLZ9DCpsgpNT0zD0llcGpiUXIGgzg2tY7pqQxS2CTcU/NSUosY1Ai4wju1sjy/KIVBEZs6iMUwJawMjAxMDMwMLEAWA5ANgwiAogIA)
+  last-modified (1572260475091)
+}
+train (t-anp34txcerasaemq1ojp5hcpn) {
+  utterance ("[g:BeginMeasurementSearch] (5개월)[v:Age:5개월] 된 (여자)[v:Gender:여] 아기 (발육상태)[v:MeasurementKeyword:발육표준] 정보 (보여줘)[v:SearchKeyword:검색]")
+  plan (Y2BjUC7ISaxML8ovzUvRS0pMqkzKz8/W801NLC4tSs1NzSvxzEvLZ9DCpsgpNT0zD0llcGpiUXIGgzg2tY7pqQxS2CTcU/NSUosY1Ai4wju1sjy/KIVBEZs6iMUwJawMjAxMDMwMLEAWA5ANgwiAogIA)
+  last-modified (1572266373069)
+}
+train (t-ausyq637hnzjuat5cckidvu8i) {
+  utterance ("[g:BeginVaccineSearch] (2달)[v:Age:2개월]된 아기가 맞아야할 (예방접종)[v:VaccineKeyword:예방접종] 목록 (보여줘)[v:SearchKeyword:검색]")
+  plan (Y2BlkC/ISaxML8ovzUvRS0pMqkzKz8/WC0tMTs7MS/XMS8tnUMOmwCk1PTMPqio4NbEoOYNBHJs6x/RUBkVsEhBN3qmV5flFKQxKeBwBU8PCwMjAxMAMpBmALAiEASQ5AA==)
+  last-modified (1572171950567)
+}

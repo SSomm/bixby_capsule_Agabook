@@ -1,0 +1,10 @@
+train (t-d0zyhe5dxv7usooztlib19nkq) {
+  utterance ("[g:BeginMeasurementSearch] (열다섯)[v:Age:15개월] 달 (여자)[v:Gender:여] 아기 (표준발육)[v:MeasurementKeyword:발육표준] (검색해줘)[v:SearchKeyword:검색]")
+  plan (Y2BjUM9MSU3MK45PSkyqTMrPz9ZLTE8E076picWlRam5qXklnnlp+Qx6uBQ6paZn5iGpDk5NLErOYJDGpd4xPZVBDpeke2peSmoRgxYRrvJOrSzPL0phUMWlFuIQmDJWBkYGJgZmBhYgiwHIhkEEQFEBAA==)
+  last-modified (1572272637923)
+}
+train (t-d15t27q1gvd6b7u6jv1emudu5) {
+  utterance ("[g:BeginMeasurementSearch] (8)[v:Age:8개월] (여자)[v:Gender:여] 아기 (체중)[v:MeasurementKeyword:체중]은 몇 키로 인가요")
+  plan (Y2BlUM9MSU3MK45PSkyqTMrPz9ZLTE8E076picWlRam5qXklnnlp+Qx6uBQ6paZn5iGpDk5NLErOYJDGpd4xPZVBDpeke2peSmoRgxYRrvJOrSzPL0phYGFgZGBiYAbSDEAWBMIAkhwA)
+  last-modified (1572271160265)
+}

@@ -1,0 +1,4 @@
+enum (VaccineKeyword) {
+  description (예방접종 단어)
+  symbol (예방접종)
+}

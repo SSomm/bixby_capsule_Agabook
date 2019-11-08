@@ -1,0 +1,7 @@
+enum (MeasurementKeyword) {
+  description (발육표준에 대한 발화 단어들)
+  symbol (발육표준)
+  symbol (체중)
+  symbol (머리둘레)
+  symbol (키)
+}

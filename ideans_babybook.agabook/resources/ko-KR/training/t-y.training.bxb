@@ -1,0 +1,5 @@
+train (t-ymzc2zmwh1v28gcorxkf6w8lp) {
+  utterance ("[g:BeginMeasurementSearch] (9달)[v:Age:9개월] (남자)[v:Gender:남] 아기 (몸무게)[v:MeasurementKeyword:체중]를 (알려주세요)[v:SearchKeyword:검색]")
+  plan (Y2BjUC7ISaxML8ovzUvRS0pMqkzKz8/W801NLC4tSs1NzSvxzEvLZ9DCpsgpNT0zD0llcGpiUXIGgzg2tY7pqQxS2CTcU/NSUosY1Ai4wju1sjy/KIVBEZs6iMUwJawMjAxMDMwMLEAWA5ANgwiAogIA)
+  last-modified (1572265905022)
+}

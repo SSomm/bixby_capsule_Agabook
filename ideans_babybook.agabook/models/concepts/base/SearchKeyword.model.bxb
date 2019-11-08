@@ -1,0 +1,4 @@
+enum (SearchKeyword) {
+  description (검색발화와 관련된 여러가지 단어들의 모음)
+  symbol (검색)
+}

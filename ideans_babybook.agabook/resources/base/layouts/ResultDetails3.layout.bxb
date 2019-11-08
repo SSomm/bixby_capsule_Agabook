@@ -1,0 +1,128 @@
+ layout-macro-def(result_details3) {
+ params {
+   param (weight) {
+     type (Weight)
+   }
+    param (height) {
+     type (Height)
+   }
+    param (headSize) {
+     type (HeadSize)
+   }
+     param (age) {
+     type (Age)
+   }
+     param (gender) {
+     type (Gender)
+   }
+   param (url) {
+     type (Url)
+   }
+    
+ }
+ content {
+   section {  // this macro returns a "section"
+     content {
+      
+       paragraph {
+         value ("[* 보건복지부 기준 #{value(age)} 평균 발달정보]")
+         style (Title_XS)
+       }
+       image-card{
+          aspect-ratio(1:1)
+          column-size (Three)
+        title-area{
+          halign (Start)
+          slot1{
+            text{
+              value("[#{value(weight)}kg]")
+              style(Title_M)
+            }
+          }
+          slot2{
+            single-line{
+              text{
+                value("[#{value(age)} #{value(gender)}아 평균]")
+                style(Detail_L)
+              }
+            }
+          }
+        }
+        image-url("images/weight.png")
+      }
+      image-card{
+         column-size (Three)
+        aspect-ratio(1:1)
+        title-area{
+          halign (Start)
+          slot1{
+            text{
+              value("[#{value(height)}cm]")
+              style(Title_M)
+            }
+          }
+          slot2{
+            single-line{
+              text{
+                value("[#{value(age)} #{value(gender)}아]")
+                style(Detail_L)
+              }
+            }
+          }
+        }
+        image-url("images/height.png")
+      }
+      image-card{
+         column-size (Three)
+        aspect-ratio(1:1)
+        title-area{
+          halign (Start)
+          slot1{
+            text{
+              value("[#{value(headSize)}cm]")
+              style(Title_M)
+            }
+          }
+          slot2{
+            single-line{
+              text{
+                value("[#{value(age)} #{value(gender)}아]")
+                style(Detail_L)
+              }
+            }
+          }
+        }
+        image-url("images/headsize.png")
+      }
+     
+ 
+       paragraph {
+         value ("[* #{value(age)} 남아 발달상태 분포표입니다.]")
+         style (Detail_M)
+       }
+      image-card{
+        aspect-ratio(4:3)
+        title-area{
+          halign (Start)
+          slot1{
+            text{
+              value("")
+              style(Title_L)
+            }
+          }
+          slot2{
+            single-line{
+              text{
+                value("")
+                style(Detail_L)
+              }
+            }
+          }
+        }
+        image-url("[images/#{value(url)}]")
+      }
+      
+     }
+   }
+ }
+}

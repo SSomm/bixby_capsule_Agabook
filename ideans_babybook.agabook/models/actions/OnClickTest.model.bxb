@@ -1,0 +1,21 @@
+action (OnClickTest) {
+  description (백신 검색 시작)
+  type(Search)
+  collect {
+    input (vacDescription) {
+      type (VacDescription)
+      min (Optional) max (One)
+    }
+
+    input (vacName) {
+      type (VacName)
+      min (Optional) max (One)
+    }
+
+    input (vacVirusName) {
+      type (VacVirusName)
+      min (Optional) max (One)
+    }
+  }
+  output (VaccineINfoDetail)
+}

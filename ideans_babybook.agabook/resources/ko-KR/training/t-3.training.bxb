@@ -1,0 +1,20 @@
+train (t-34kffhcvfhoxmu4ml51ineq3c) {
+  utterance ("[g:meals] (8개월)[v:Age:8개월] (밀가루)[v:Foods] (먹어도 돼)[v:SearchKeyword:검색]?")
+  plan (Y2BlUMxMSU3MK45PSkyqTMrPz9ZLTE8E076piTnFnnlp+QyyuJTkgpQwSOOSdkxPxa3XLT8/pZhBFZd0cGpiUXKGd2pleX5RCgMLAyMDEwMzkGYAsiAQBpDkAA==)
+  last-modified (1572272661689)
+}
+train (t-3fgo2uux2k9vxgpc97gp9htdf) {
+  utterance ("[g:BeginMeasurementSearch] (10개월)[v:Age:10개월] (여자)[v:Gender:여] 애기 (머리둘레)[v:MeasurementKeyword:머리둘레] 평균 (몇이야)[v:SearchKeyword:검색]")
+  plan (Y2BjUC7ISaxML8ovzUvRS0pMqkzKz8/W801NLC4tSs1NzSvxzEvLZ9DCpsgpNT0zD0llcGpiUXIGgzg2tY7pqQxS2CTcU/NSUosY1Ai4wju1sjy/KIVBEZs6iMUwJawMjAxMDMwMLEAWA5ANgwiAogIA)
+  last-modified (1572258032154)
+}
+train (t-3oombqfdwxf5uzc0hftnrreto) {
+  utterance ("[g:BeginMeasurementSearch] (10달)[v:Age:10개월] (남자)[v:Gender:남] 아기 평균 (키)[v:MeasurementKeyword:키] (뭐야)[v:SearchKeyword:검색]")
+  plan (Y2BjUC7ISaxML8ovzUvRS0pMqkzKz8/W801NLC4tSs1NzSvxzEvLZ9DCpsgpNT0zD0llcGpiUXIGgzg2tY7pqQxS2CTcU/NSUosY1Ai4wju1sjy/KIVBEZs6iMUwJawMjAxMDMwMLEAWA5ANgwiAogIA)
+  last-modified (1572254564681)
+}
+train (t-3u2s8c5mhaqc3sqnmq69n3hkd) {
+  utterance ("[g:BeginMeasurementSearch] (7개월)[v:Age:7개월] (남자)[v:Gender:남] 아기 평균 (키)[v:MeasurementKeyword:키] (말해줘)[v:SearchKeyword:검색]")
+  plan (Y2BjUC7ISaxML8ovzUvRS0pMqkzKz8/W801NLC4tSs1NzSvxzEvLZ9DCpsgpNT0zD0llcGpiUXIGgzg2tY7pqQxS2CTcU/NSUosY1Ai4wju1sjy/KIVBEZs6iMUwJawMjAxMDMwMLEAWA5ANgwiAogIA)
+  last-modified (1572257142554)
+}

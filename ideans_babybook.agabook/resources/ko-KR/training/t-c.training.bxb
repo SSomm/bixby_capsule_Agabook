@@ -1,0 +1,20 @@
+train (t-c7lrzmh3ulk080ao7pawul3io) {
+  utterance ("[g:BeginMeasurementSearch] (13달)[v:Age:13개월] (남자)[v:Gender:남] 아기 (몇키로)[v:MeasurementKeyword:체중] 여야 (정상이야)[v:SearchKeyword:검색]")
+  plan (Y2BjUC7ISaxML8ovzUvRS0pMqkzKz8/W801NLC4tSs1NzSvxzEvLZ9DCpsgpNT0zD0llcGpiUXIGgzg2tY7pqQxS2CTcU/NSUosY1Ai4wju1sjy/KIVBEZs6iMUwJawMjAxMDMwMLEAWA5ANgwiAogIA)
+  last-modified (1572262214393)
+}
+train (t-cbz7zgao8jokx2xrn2w9d8p8w) {
+  utterance ("[g:BeginMeasurementSearch] (11개월)[v:Age:11개월]된 (남자)[v:Gender:남]아이 평균 (체중)[v:MeasurementKeyword:체중] (알려줘)[v:SearchKeyword:검색]")
+  plan (Y2BjUC7ISaxML8ovzUvRS0pMqkzKz8/W801NLC4tSs1NzSvxzEvLZ9DCpsgpNT0zD0llcGpiUXIGgzg2tY7pqQxS2CTcU/NSUosY1Ai4wju1sjy/KIVBEZs6iMUwJawMjAxMDMwMLEAWA5ANgwiAogIA)
+  last-modified (1572262934335)
+}
+train (t-cildnxd9z6cnl3ikimtvm5eqq) {
+  utterance ("[g:BeginVaccineSearch] (36개월)[v:Age:36개월] (예방주사)[v:VaccineKeyword:예방접종] 어떤거 (맞아야해)[v:SearchKeyword:검색]?")
+  plan (Y2BlUM5MSU3MK45PSkyqTMrPz9ZLTE8E02GJycmZeameeWn5DFq4FDmlpmfmQVUGpyYWJWcwSONS65ieyqCKSxKi2Tu1sjy/KIVBjYCjYOpYGBgZmBiYgTQDkAWBMIAkBwA=)
+  last-modified (1572272989445)
+}
+train (t-cnklpymfw15stmtq4i3s23xf5) {
+  utterance ("[g:meals] (감자미음)[v:Foods] (만드는 법)[v:RecipeKeyword:레시피] (알려줘)[v:SearchKeyword:검색]")
+  plan (Y2BlkC3ISaxML8ovzUvRS0pMqkzKz8/W801NzCn2zEvLZ5DEJp0LksYu5Zafn1LMoIhNKig1ObMg1Tu1sjy/KAW7kuDUxKLkDJgSFgZGBiYGZiDNAGRBIAwgyQEA)
+  last-modified (1572261439268)
+}

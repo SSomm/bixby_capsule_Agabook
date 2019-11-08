@@ -1,0 +1,56 @@
+layout-macro-def(result_details4) {
+ params{
+   param (vacVirusName){
+     type(VacVirusName)
+     min (Optional) max (Many)
+   }
+   param (vacName){
+     type(VacName)
+     min (Optional) max (Many)
+   }
+    param (vacDescription){
+     type(VacDescription)
+     min (Optional) max (Many)
+   }
+ }
+  content {
+        thumbnail-card{
+          title-area{
+            halign (Start)
+            slot1{
+              text{
+                value("질병명: [#{value(vacVirusName)}]")
+                style(Title_S) 
+              }
+            }
+            slot2{
+              paragraph{
+                value("백신명: [#{value(vacName)}]")
+                style(Detail_L)
+              }
+            }
+            slot3{
+              paragraph{
+                value("[#{value(vacDescription)}]")
+              }
+            }
+            
+          }
+         image-url("images/vaccinate.jpg")
+
+          
+
+        //   on-click {
+        //     intent {
+        //       goal : ideans_babybook.agabook.OnClickTest
+        //       value : $expr(vacName)
+        //       value : $expr(vacVirusName)
+        //       value : $expr(vacDescription)
+        //   }
+        // }
+      }
+  }
+}  
+  
+
+

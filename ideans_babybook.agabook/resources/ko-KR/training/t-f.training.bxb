@@ -1,0 +1,5 @@
+train (t-fjsn0ramqrei5vizkp1ewjavk) {
+  utterance ("[g:meals] (9개월)[v:Age:9개월] (빵)[v:Foods] (먹을 수 있어)[v:SearchKeyword:검색]?")
+  plan (Y2BlkC3ISaxML8ovzUvRS0pMqkzKz8/W801NzCn2zEvLZ5DEJp0LkmYQxyblmJ6KXY9bfn5KMYMiNqng1MSi5Azv1Mry/KIUBhYGRgYmBmYgzQBkQSAMIMkBAA==)
+  last-modified (1572261412345)
+}

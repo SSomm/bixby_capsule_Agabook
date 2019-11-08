@@ -1,0 +1,15 @@
+train (t-774m358v23jdr0vh5tmde9w19) {
+  utterance ("[g:BeginMeasurementSearch] (5개월)[v:Age:5개월] (남자)[v:Gender:남] 아기 평균 (체중)[v:MeasurementKeyword:체중] 정보 (알려줘)[v:SearchKeyword:검색]")
+  plan (Y2BjUC7ISaxML8ovzUvRS0pMqkzKz8/W801NLC4tSs1NzSvxzEvLZ9DCpsgpNT0zD0llcGpiUXIGgzg2tY7pqQxS2CTcU/NSUosY1Ai4wju1sjy/KIVBEZs6iMUwJawMjAxMDMwMLEAWA5ANgwiAogIA)
+  last-modified (1572195094997)
+}
+train (t-7xbgm6jt9ruyawoda53mjyr2d) {
+  utterance ("[g:BeginMeasurementSearch] (6개월)[v:Age:6개월] (남)[v:Gender:남]아 아기 평균 (몸무게)[v:MeasurementKeyword:체중] (알려줘)[v:SearchKeyword:검색]")
+  plan (Y2BjUM9MSU3MK45PSkyqTMrPz9ZLTE8E076picWlRam5qXklnnlp+Qx6uBQ6paZn5iGpDk5NLErOYJDGpd4xPZVBDpeke2peSmoRgxYRrvJOrSzPL0phUMWlFuIQmDJWBkYGJgZmBhYgiwHIhkEEQFEBAA==)
+  last-modified (1572271060814)
+}
+train (t-7y1xchpqxt0f6vcguhzrsqtk7) {
+  utterance ("[g:BeginMeasurementSearch] (6달)[v:Age:6개월]된 (여자)[v:Gender:여] 아기의 (키)[v:MeasurementKeyword:키] 정보 (알려줘)[v:SearchKeyword:검색]")
+  plan (Y2BjUC7ISaxML8ovzUvRS0pMqkzKz8/W801NLC4tSs1NzSvxzEvLZ9DCpsgpNT0zD0llcGpiUXIGgzg2tY7pqQxS2CTcU/NSUosY1Ai4wju1sjy/KIVBEZs6iMUwJawMjAxMDMwMLEAWA5ANgwiAogIA)
+  last-modified (1572195827460)
+}

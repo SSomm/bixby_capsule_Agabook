@@ -1,0 +1,31 @@
+endpoints {
+  action-endpoints {
+    // Uncomment the lines below and enter the information for actions, inputs, and the appropriate local or remote endpoints
+    action-endpoint (BeginVaccineSearch) {
+      accepted-inputs (age, vaccineKeyword, searchKeyword)
+      local-endpoint (find/SearchVaccine.js)
+    }
+
+    action-endpoint (BeginMeasurementSearch) {
+      accepted-inputs (age, gender, measurementKeyword, searchKeyword)
+      local-endpoint (find/SearchMeasurementByMonthGender.js)
+    }
+
+    action-endpoint (OnClickTest) {
+      accepted-inputs (vacDescription, vacName, vacVirusName)
+      local-endpoint (find/GetDetailInfo.js)
+    }
+
+    action-endpoint (meals) {
+      accepted-inputs (age, foods, recipeKey, searchKey)
+      local-endpoint (searchMeals.js)
+    }
+
+    // action-endpoint (__ACTION_NAME__) {
+    //   accepted-inputs (__LIST_OF_ACTION_INPUTS__)
+    //   remote-endpoint (__ENDPOINT_URL__) {
+    //     method (__HTTP_METHOD_USED__)
+    //   }
+    // }
+  }
+}
