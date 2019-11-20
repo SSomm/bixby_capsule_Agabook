@@ -1,11 +1,17 @@
 capsule-info {
   dispatch-name (아가북)
   display-name (아가북)
-  developer-name (Ideans)
+  developer-name (idEANS)
   icon-asset (./images/agabook_icon.png)
   description ("육아 초보에게 시기별 육아정보를 제공하는 아가북입니다. 1) 예방접종 정보(0-36개월) 2) 이유식/레시피 정보(5-15개월) 3) 섭취 가/불가 식품 정보(5-15개월) 4) 표준발육정보(머리둘레, 신장, 체중: 5-15개월)")
+  privacy-policy-url (http://bitly.kr/OX8KOLX)
   search-keywords {
     keyword (아가북)
+    keyword (육아초보)
+    keyword (육아초보자)
+    keyword (아기정보)
+    keyword (신생아정보)
+    keyword (영유아)
   }
 }
 
