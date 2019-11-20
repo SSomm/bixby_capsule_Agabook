@@ -9,7 +9,12 @@ capsule {
     section (ArtAndLifestyle)
     section (EducationAndReference) 
   }
-
+  capsule-imports {
+    import (bixby.audioPlayer) {
+      version (0.3.6)
+      as (audioPlayer)
+    }
+  }
   runtime-flags {
     concepts-inherit-super-type-features
     modern-prompt-rejection
@@ -18,5 +23,4 @@ capsule {
     modern-default-view-behavior
     use-input-views-for-selection-list-detail
   }
-
 }

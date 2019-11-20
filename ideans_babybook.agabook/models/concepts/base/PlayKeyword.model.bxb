@@ -1,0 +1,4 @@
+enum (PlayKeyword) {
+  description (재생에 대한 vocab)
+  symbol (재생)
+}
