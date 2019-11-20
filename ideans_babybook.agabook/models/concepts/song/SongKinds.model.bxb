@@ -1,0 +1,6 @@
+enum (SongKinds) {
+  description (__DESCRIPTION__)
+  symbol (동요)
+  symbol (뽀로로)
+  symbol (자장가)
+}

@@ -4,12 +4,12 @@ action (BeginVaccineSearch) {
   collect {
     input (age) {
       type (Age)
-      min (Optional) max (One)
+      min (Required) max (One)
     }
 
     input (vaccineKeyword) {
       type(VaccineKeyword)
-      min (Optional) max(Many)
+      min (Required) max(Many)
     }
 
     input (searchKeyword) {

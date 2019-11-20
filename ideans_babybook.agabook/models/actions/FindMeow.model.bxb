@@ -1,0 +1,11 @@
+action (FindMeow) {
+  type (Search)
+  description (Finds meow audio item using a songKinds)
+  collect {
+    input (songKinds) {
+      type (SongKinds)
+      min (Optional) max (One)
+    }
+  }
+  output (MeowAudio)
+}

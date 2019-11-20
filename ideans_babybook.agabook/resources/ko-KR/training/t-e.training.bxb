@@ -3,6 +3,11 @@ train (t-e26dt40p0nyxyp6hv742wvnna) {
   plan (Y2BlUMxMSU3MK45PSkyqTMrPz9ZLTE8E076piTnFnnlp+QyyuJTkgpQwSOOSdkxPxa3XLT8/pZhBFZd0cGpiUXKGd2pleX5RCgMLAyMDEwMzkGYAsiAQBpDkAA==)
   last-modified (1572271176803)
 }
+train (t-e502vs9884a9to3hpc66xxe5h) {
+  utterance ("[g:PlayMeow] (자장가)[v:SongKinds:자장가] 들려줘")
+  plan (Y2BnkMtMSU3MK45PSkyqTMrPz9ZLTE8E00GpxaU5JQwKuOQDchIrfVPzyxmkkzIrkir1EktTMvNBgqlFeo4gtmdeWj6DFi7tTqWZOSkg/Qi1irjUwpXhdo1bZh7YNNyGBOfnpXsDVRUzsDEwMjAxMDOwMLAC2QxIPEYwD4IZgKKMIHkA)
+  last-modified (1574233363114)
+}
 train (t-ed7vhutm698s81ss01axgxis5) {
   utterance ("[g:meals] (7개월)[v:Age:7개월] (연근)[v:Foods] (먹을 수 있어)[v:SearchKeyword:검색]?")
   plan (Y2BlkC3ISaxML8ovzUvRS0pMqkzKz8/W801NzCn2zEvLZ5DEJp0LkmYQxyblmJ6KXY9bfn5KMYMiNqng1MSi5Azv1Mry/KIUBhYGRgYmBmYgzQBkQSAMIMkBAA==)
