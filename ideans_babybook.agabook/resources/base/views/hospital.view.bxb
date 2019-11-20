@@ -1,0 +1,35 @@
+result-view {
+  match: hospitalInfo(this.Mealtype)
+  
+  message {
+    template ("[#{value(age)}] 이유식 레시피입니다."){
+      speech ("[#{value(age)}] 이유식 레시피는 [#{value(meal_type)}]이 있습니다.")
+    }
+  }
+  
+  render {
+    if(size(meal_type)>=0){
+      list-of (meal_type){
+        where-each (item){
+          layout-macro (result_details) {
+          //  param (mealType) {
+          //   expression (meal_type)
+          // }
+         }
+        }
+      }
+    
+    }
+    
+  }
+
+  conversation-drivers{
+    conversation-driver{
+      template ("이유식 만들 때 주의사항은?")
+  }
+  conversation-driver{
+      template ("소금간 해도 돼?")
+  }
+}
+
+}
