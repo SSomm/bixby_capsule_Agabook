@@ -23,7 +23,7 @@ endpoints {
 
 
     action-endpoint (PlayMeow) {
-      accepted-inputs (songKinds)
+      // accepted-inputs (songKinds)
       local-endpoint (PlayMeow.js)
     }
     action-endpoint (BuildMeowAudioInfo) {
