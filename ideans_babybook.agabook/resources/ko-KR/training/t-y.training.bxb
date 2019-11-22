@@ -3,3 +3,8 @@ train (t-ymzc2zmwh1v28gcorxkf6w8lp) {
   plan (Y2BjUC7ISaxML8ovzUvRS0pMqkzKz8/W801NLC4tSs1NzSvxzEvLZ9DCpsgpNT0zD0llcGpiUXIGgzg2tY7pqQxS2CTcU/NSUosY1Ai4wju1sjy/KIVBEZs6iMUwJawMjAxMDMwMLEAWA5ANgwiAogIA)
   last-modified (1572265905022)
 }
+train (t-yzr2gydqv5gxhgpj0e0nohmcv) {
+  utterance ("[g:PlayMeow] (뽀로로)[v:SongKinds:뽀로로] 들려줘")
+  plan (Y2BnkMtMSU3MK45PSkyqTMrPz9ZLTE8E00GpxaU5JQwKuOQDchIrfVPzyxmkkzIrkir1EktTMvNBgqlFeo4gtmdeWj6DFi7tTqWZOSkg/Qi1irjUwpXhdo1bZh7YNNyGBOfnpXsDVRUzsDEwMjAxMDOwMLAC2QxIPEYwD4IZgKKMIHkA)
+  last-modified (1574403539154)
+}

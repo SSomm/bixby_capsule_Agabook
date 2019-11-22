@@ -7,7 +7,7 @@
 ### 작은 아이디어로 세상을 바꾸어보자!
 육아 초보자를 위해 정보를 제공하는 빅스비 캡슐을 만든 아이디언즈 팀입니다.
 <p align="center">
-  <img width=800px src="./images/iDEANS.png"/>
+  <img width=800px src="./images/iDEANS_team_picture.png"/>
 </p>
 
 ## 참고 문헌

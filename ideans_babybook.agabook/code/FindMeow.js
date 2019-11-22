@@ -1,4 +1,5 @@
 var meowAudio = require('./meowAudio.js')
+var console = require('console')
 
 module.exports.function = function findMeow(songKinds) {
     const keysToSearchOn = ['title', 'artist', 'subtitle', 'albumName']
@@ -13,7 +14,7 @@ module.exports.function = function findMeow(songKinds) {
         })
     } else {
         meowAudioFound = meowAudio.audioItems
-        // console.log(meowAudioFound)
+        console.log(meowAudioFound)
     }
     return meowAudioFound
 }
