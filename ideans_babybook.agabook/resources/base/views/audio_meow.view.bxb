@@ -1,0 +1,17 @@
+// result-view {
+//  match: AudioInfo(this)
+//   message {
+//     template("노래에요."){
+//       speech("노래를 들어보세요.")
+//     }
+    
+//  }
+
+// render{
+
+
+  
+// }
+
+//   }
+  
