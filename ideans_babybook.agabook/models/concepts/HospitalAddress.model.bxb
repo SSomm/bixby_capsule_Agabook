@@ -1,0 +1,3 @@
+text (HospitalAddress) {
+  description (검색된 병원의 주소)
+}

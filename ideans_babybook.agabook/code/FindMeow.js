@@ -16,5 +16,6 @@ module.exports.function = function findMeow(songKinds) {
         meowAudioFound = meowAudio.audioItems
         console.log(meowAudioFound)
     }
+    console.log(meowAudioFound)
     return meowAudioFound
 }
