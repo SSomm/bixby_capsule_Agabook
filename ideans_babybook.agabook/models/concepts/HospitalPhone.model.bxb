@@ -1,0 +1,3 @@
+text (HospitalPhone) {
+  description (검색된 병원의 전화번호)
+}

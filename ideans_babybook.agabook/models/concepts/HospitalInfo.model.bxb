@@ -1,0 +1,24 @@
+structure (HospitalInfo) {
+  description (근처 소아과에 대한 정보를 담고있다.)
+  
+  property (hospitalName) {
+    type (HospitalName)
+    min (Optional) max (Many)
+  }
+
+  property (hospitalAddress) {
+    type (HospitalAddress)
+    min (Optional) max (Many)
+  }
+
+  property (hospitalPhone) {
+    type (HospitalPhone)
+    min (Optional) max (Many)
+  }
+
+  // property (distance) {
+  //   type (Distance)
+  //   min (Optional) max (One)
+  // }
+
+}

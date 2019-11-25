@@ -120,6 +120,7 @@ const audioItems = [{
     ],
     title: "Lullaby",
     albumName: "자장가",
+    artist: "Lullaby",
     albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/album_cover.png"
 
   },
@@ -159,7 +160,7 @@ const audioItems = [{
         format: "mp3"
       }
     ],
-    title: "Schumann_Träumerei op. 15 No. 7 in F major from Kinderszenen",
+    title: "Schumann_Träumerei op. 15 No. 7 in F major from Kinderszenen",
     albumName: "자장가",
     artist: "Schumann",
     albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/album_cover.png"
@@ -173,11 +174,278 @@ const audioItems = [{
         format: "mp3"
       }
     ],
-    title: "Schumann_Träumerei op. 15 No. 7 in F major from Kinderszenen",
+    title: "Schumann_Träumerei op. 15 No. 7 in F major from Kinderszenen",
     albumName: "뽀로로",
-    artist: "",
+    artist: "뽀로로로",
     albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/album_cover.png"
 
-  }]
+  },
+  {
+    id: 14,
+    stream: [
+      {
+        url: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/_bbororo_adultsdontknow.mp3",
+        format: "mp3"
+      }
+    ],
+    title: "어른들은 몰라요",
+    albumName: "뽀로로 ost",
+    artist: "뽀로로",
+    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/album_cover_bbororo.png"
+
+  },
+  {
+    id: 15,
+    stream: [
+      {
+        url: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/_bbororo_adultsdontknow.mp3",
+        format: "mp3"
+      }
+    ],
+    title: "아름다운 세상",
+    albumName: "뽀로로 ost",
+    artist: "뽀로로",
+    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/album_cover_bbororo.png"
+
+  },
+  {
+    id: 16,
+    stream: [
+      {
+        url: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/_bbororo_beautifulmind%20and%20beautifuldream.mp3",
+        format: "mp3"
+      }
+    ],
+    title: "예쁜 맘 예쁜 꿈",
+    albumName: "뽀로로 ost",
+    artist: "뽀로로",
+    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/album_cover_bbororo.png"
+
+  },
+  {
+    id: 17,
+    stream: [
+      {
+        url: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/_bbororo_blueworld.mp3",
+        format: "mp3"
+      }
+    ],
+    title: "파란나라",
+    albumName: "뽀로로 ost",
+    artist: "뽀로로",
+    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/album_cover_bbororo.png"
+
+  },
+  {
+    id: 18,
+    stream: [
+      {
+        url: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/_bbororo_cute_bear.mp3",
+        format: "mp3"
+      }
+    ],
+    title: "예쁜 아기곰",
+    albumName: "뽀로로 ost",
+    artist: "뽀로로",
+    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/album_cover_bbororo.png"
+
+  },
+  {
+    id: 19,
+    stream: [
+      {
+        url: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/_bbororo_frog.mp3",
+        format: "mp3"
+      }
+    ],
+    title: "개구리",
+    albumName: "뽀로로 ost",
+    artist: "뽀로로",
+    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/album_cover_bbororo.png"
+
+  },
+  {
+    id: 20,
+    stream: [
+      {
+        url: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/_bbororo_iamokay.mp3",
+        format: "mp3"
+      }
+    ],
+    title: "괜찮아요",
+    albumName: "뽀로로 ost",
+    artist: "뽀로로",
+    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/album_cover_bbororo.png"
+
+  },
+  {
+    id: 21,
+    stream: [
+      {
+        url: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/_bbororo_mompig_babypig.mp3",
+        format: "mp3"
+      }
+    ],
+    title: "엄마 돼지 아기 돼지",
+    albumName: "뽀로로 ost",
+    artist: "뽀로로",
+    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/album_cover_bbororo.png"
+
+  },
+  {
+    id: 22,
+    stream: [
+      {
+        url: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/_bbororo_pinokio.mp3",
+        format: "mp3"
+      }
+    ],
+    title: "피노키오",
+    albumName: "뽀로로 ost",
+    artist: "뽀로로",
+    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/album_cover_bbororo.png"
+
+  },
+  {
+    id: 23,
+    stream: [
+      {
+        url: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/_bbororo_stop.mp3",
+        format: "mp3"
+      }
+    ],
+    title: "그래도 멈춰라",
+    albumName: "뽀로로 ost",
+    artist: "뽀로로",
+    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/album_cover_bbororo.png"
+
+  },
+  {
+    id: 24,
+    stream: [
+      {
+        url: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/_bbororo_wingwingwing.mp3",
+        format: "mp3"
+      }
+    ],
+    title: "윙윙윙",
+    albumName: "뽀로로 ost",
+    artist: "뽀로로",
+    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/album_cover_bbororo.png"
+
+  },
+  {
+    id: 25,
+    stream: [
+      {
+        url: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/%E1%84%82%E1%85%A1%E1%84%86%E1%85%AE%E1%84%8B%E1%85%A3.mp3",
+        format: "mp3"
+      }
+    ],
+    title: "나무야",
+    albumName: "동요",
+    artist: "차용운",
+    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/album_cover.png"
+
+  },
+  {
+    id: 26,
+    stream: [
+      {
+        url: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/%E1%84%83%E1%85%A9%E1%86%BC%E1%84%80%E1%85%B3%E1%84%85%E1%85%A1%E1%86%AB%20%E1%84%87%E1%85%A1%E1%84%8F%E1%85%B1.mp3",
+        format: "mp3"
+      }
+    ],
+    title: "동그란 바퀴",
+    albumName: "동요",
+    artist: "차용운",
+    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/album_cover.png"
+
+  },
+  {
+    id: 27,
+    stream: [
+      {
+        url: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/%E1%84%82%E1%85%A1%E1%84%86%E1%85%AE%E1%84%8B%E1%85%A3.mp3",
+        format: "mp3"
+      }
+    ],
+    title: "나무야",
+    albumName: "동요",
+    artist: "차용운",
+    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/album_cover.png"
+
+  },
+  {
+    id: 28,
+    stream: [
+      {
+        url: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/%E1%84%89%E1%85%A2%E1%86%A8%E1%84%8E%E1%85%B5%E1%86%AF%20%E1%84%82%E1%85%A9%E1%86%AF%E1%84%8B%E1%85%B5.mp3",
+        format: "mp3"
+      }
+    ],
+    title: "색칠 놀이",
+    albumName: "동요",
+    artist: "차용운",
+    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/album_cover.png"
+
+  },
+  {
+    id: 29,
+    stream: [
+      {
+        url: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/%E1%84%89%E1%85%A6%E1%84%89%E1%85%A1%E1%86%BC%E1%84%8B%E1%85%B3%E1%86%AB%20%E1%84%82%E1%85%A9%E1%86%AF%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5.mp3",
+        format: "mp3"
+      }
+    ],
+    title: "세상은 놀이터",
+    albumName: "동요",
+    artist: "차용운",
+    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/album_cover.png"
+
+  },
+  {
+    id: 30,
+    stream: [
+      {
+        url: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/%E1%84%8A%E1%85%A1%E1%86%A8%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A1%E1%86%A8%E1%84%8B%E1%85%B5%20%E1%84%82%E1%85%A1%E1%84%82%E1%85%A6%E1%84%8B%E1%85%AD.wav",
+        format: "mp3"
+      }
+    ],
+    title: "싹이싹이 나네요",
+    albumName: "동요",
+    artist: "차용운",
+    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/album_cover.png"
+
+  },
+  {
+    id: 31,
+    stream: [
+      {
+        url: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/%E1%84%8B%E1%85%A5%E1%86%AF%E1%84%80%E1%85%AE%E1%86%AF%E1%84%8B%E1%85%B3%E1%86%AF%20%E1%84%80%E1%85%B3%E1%84%85%E1%85%A7%E1%84%8B%E1%85%AD.mp3",
+        format: "mp3"
+      }
+    ],
+    title: "얼굴을 그려요",
+    albumName: "동요",
+    artist: "차용운",
+    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/album_cover.png"
+
+  },
+  {
+    id: 32,
+    stream: [
+      {
+        url: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/%E1%84%8E%E1%85%AE%E1%86%B7%E1%84%8B%E1%85%B3%E1%86%AF%20%E1%84%8E%E1%85%AE%E1%84%86%E1%85%A7%20%E1%84%8F%E1%85%A9%E1%86%BC%E1%84%8F%E1%85%A9%E1%86%BC%E1%84%8F%E1%85%A9%E1%86%BC.mp3",
+        format: "mp3"
+      }
+    ],
+    title: "춤을 추며 콩콩콩",
+    albumName: "동요",
+    artist: "차용운",
+    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/album_cover.png"
+
+  }
+  ]
 
   exports.audioItems = audioItems

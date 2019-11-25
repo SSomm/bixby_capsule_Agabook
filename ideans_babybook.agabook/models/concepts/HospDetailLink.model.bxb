@@ -1,0 +1,3 @@
+text (HospDetailLink) {
+  description (병원주소로 검색한 네이버 검색 결과 주소)
+}

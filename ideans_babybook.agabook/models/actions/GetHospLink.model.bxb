@@ -1,0 +1,22 @@
+action (GetHospLink) {
+  type(Search)
+  description (원하는 병원에 대한 정보를 알려준다)
+  collect {
+    input (hospAddress) {
+      type (HospitalAddress)
+      min (Optional) max (One)
+    }
+
+    input (hospName) {
+      type (HospitalName)
+      min (Optional) max (One)
+    }
+
+    input (hospPhone) {
+      type (HospitalPhone)
+      min (Optional) max (One)
+    }
+
+  }
+  output (HospDetailInfo)
+}
