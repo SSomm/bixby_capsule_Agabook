@@ -1,3 +1,4 @@
 structure (MeowAudio) {
   role-of (audioPlayer.AudioItem)
+  // description(playMeow.AudioItem)
 }
