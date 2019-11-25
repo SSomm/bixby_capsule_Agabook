@@ -3,6 +3,11 @@ train (t-q1m1n55i76stu81a7312lz01b) {
   plan (Y2BlkC/ISaxML8ovzUvRS0pMqkzKz8/WC0tMTs7MS/XMS8tnUMOmwCk1PTMPqio4NbEoOYNBHJs6x/RUBkVsEhBN3qmV5flFKQxKeBwBU8PCwMjAxMAMpBmALAiEASQ5AA==)
   last-modified (1572197567451)
 }
+train (t-q4xwwdqrukqgr3mo84ynrug8b) {
+  utterance ("[g:CallHospital] (01051355555)[v:HospitalPhone] 으로 전화 걸어줘")
+  plan (Y2BmUM1MSU3MK45PSkyqTMrPz9ZLTE8E0x75xQWZJYk5ARn5eakMKriUOSfm5MCUEmsYEwMjEDMASUYGEIDyAQ==)
+  last-modified (1574414195777)
+}
 train (t-qyq9tdpzcioqtu4sca7yavsm8) {
   utterance ("[g:BeginMeasurementSearch] (열다섯달)[v:Age:15개월] (여자)[v:Gender:여] 아기 (발육상태)[v:MeasurementKeyword:발육표준]가 (궁금해)[v:SearchKeyword:검색]")
   plan (Y2BjUM9MSU3MK45PSkyqTMrPz9ZLTE8E076picWlRam5qXklnnlp+Qx6uBQ6paZn5iGpDk5NLErOYJDGpd4xPZVBDpeke2peSmoRgxYRrvJOrSzPL0phUMWlFuIQmDJWBkYGJgZmBhYgiwHIhkEEQFEBAA==)

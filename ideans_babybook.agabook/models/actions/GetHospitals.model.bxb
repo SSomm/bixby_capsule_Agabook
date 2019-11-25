@@ -1,0 +1,49 @@
+action (GetHospitals) {
+  type(Search)
+  description (주변에 있는 병원의 리스트를 가져온다)
+  collect {
+    input (pointPair) {
+      type (geo.GeoPoint)
+      min (Optional) max (One)
+
+
+      default-init {
+        if($user.currentLocation.$exists) {
+          intent {
+            goal: geo.GeoPoint
+            value-set: geo.CurrentLocation {
+              $expr ($user.currentLocation)
+            }
+          }
+        }
+      }
+    }
+
+
+  }
+  output (HospitalInfo) {
+    throws {
+        error (Error) {
+          on-catch {
+            halt {
+              dialog {
+                template ("[API_error]_해당 위치에 대한 병원 정보를 가져올수 없습니다.")
+              }
+            }
+          }
+        }
+        unknown-error {
+          on-catch {
+            halt {
+              dialog {
+                template ("An unexpected error occurred - please try again.")
+              }
+            }
+          }
+        }
+      }
+  }
+
+
+  
+}

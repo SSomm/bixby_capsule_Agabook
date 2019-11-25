@@ -10,6 +10,35 @@ capsule {
     section (EducationAndReference) 
   }
 
+  capsule-imports {
+    import (bixby.audioPlayer) {
+      version (1.0.1)
+      as (audioPlayer)
+    }
+
+    import (viv.entity) {
+      as (entity) 
+      version (4.0.1)
+    }    
+    import (viv.geo) {
+      as (geo)
+      version-from (entity)
+    }
+    import (viv.core){ 
+      as (core) 
+      version-from (entity)
+    }
+  }
+  store-countries {
+    all {
+    }
+  }
+
+  // Added by H.Kim - for usr's geo info  11/19/2019
+  permissions{
+    user-profile-access
+  }
+
   runtime-flags {
     concepts-inherit-super-type-features
     modern-prompt-rejection
@@ -18,5 +47,7 @@ capsule {
     modern-default-view-behavior
     use-input-views-for-selection-list-detail
   }
+
+  
 
 }

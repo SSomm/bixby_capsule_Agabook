@@ -34,6 +34,23 @@ endpoints {
       local-endpoint (FindMeow.js)
     }
 
+    action-endpoint (GetHospitals) {
+      accepted-inputs (pointPair)
+      local-endpoint (place/getNearHospital.js)
+    }
+
+        // Added by H.Kim - to get detailed link  11/19/2019
+    action-endpoint (GetHospLink) {
+      accepted-inputs (hospAddress, hospName, hospPhone)
+      local-endpoint (place/getDetailLink.js)
+    }
+
+    action-endpoint (CallHospital) {
+      accepted-inputs (tel)
+      local-endpoint (place/callHospital.js)
+    }
+
+
     // action-endpoint (__ACTION_NAME__) {
     //   accepted-inputs (__LIST_OF_ACTION_INPUTS__)
     //   remote-endpoint (__ENDPOINT_URL__) {
