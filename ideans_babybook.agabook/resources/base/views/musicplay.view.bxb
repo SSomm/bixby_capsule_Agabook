@@ -1,0 +1,60 @@
+result-view{
+  match:Result(this)
+
+  message{
+    template ("'[#{value(this.artist)}]'의 곡을 플레이합니다."){
+      speech ("[#{value(this.title)}]을 재생합니다.")
+    }
+    
+  }
+
+  render{
+    layout{
+      section{
+        content{
+          
+          image-card{
+            title-area{
+              slot1{
+                text{
+                  value("[#{value(this.artist)}]")
+                }
+              }
+            }
+            image-url("[#{value(this.imgUrl)}]")         
+          }
+          divider
+          title-card{
+            title-area{
+              slot1{
+              text{
+                value("곡명: [#{value(this.title)}]")
+              }
+              }
+             
+              slot2{
+                paragraph{
+                 value("아티스트: [#{value(this.artist)}]")
+                  }
+              }
+              
+              slot3{
+                paragraph{
+                  value("앨범명: [#{value(this.albumName)}]")
+                }
+              }
+            }
+            
+          }
+
+
+        }
+      }
+    }
+
+
+  }
+
+
+
+}

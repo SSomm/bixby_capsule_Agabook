@@ -5,8 +5,16 @@ structure (HospDetailInfo) {
     type (HospDetailLink)
     min (Optional) max (One)
   }
+  property (hospName) {
+    type (HospName)
+    min (Optional) max (One)
+  }
 
-  property (hospitalPhone) {
+property (hospitalAddress) { 
+    type (HospitalAddress)
+    min (Optional) max (One)
+  }
+  property (hospPhone) {
     type (HospitalPhone)
     min (Optional) max (One)
   }

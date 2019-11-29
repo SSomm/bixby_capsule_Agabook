@@ -13,7 +13,7 @@ module.exports.function = function searchMeals (age, foods, recipeKey) {
     // 레시피 물어보기
     if (typeof(recipeKey) != 'undefined') {
 
-      var nospace_foods = replaceAll(foods, " ", "");
+      var nospace_foods = replaceAll(foods," ", "");
       each_recipe = mealjson["Recipes"][nospace_foods][0];
       var recipe_img=mealjson["Recipes"][nospace_foods][1];
       
@@ -146,12 +146,12 @@ module.exports.function = function searchMeals (age, foods, recipeKey) {
             meal_type : foods,
             meal_img : imgs_list,
             possibleEats : {
-              yes_no : "먹을 수 있어요",
+              yes_no : canEat,
               food_type : possTypeList, 
               food_list : possFoodList
             },
             impossibleEats : {
-              yes_no : "먹을 수 없어요",
+              yes_no : canEat,
               food_type : imPossTypeList,
               food_list : imPossFoodList
             }

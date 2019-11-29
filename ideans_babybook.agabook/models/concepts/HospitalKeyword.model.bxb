@@ -1,0 +1,4 @@
+enum (HospitalKeyword) {
+  description (병원을 가리키는 단어모음)
+  symbol (병원)
+}

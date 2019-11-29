@@ -1,0 +1,22 @@
+action (Weblink) {
+  description (URL 통하여 app-launch를 실행하는 action)
+  type(Constructor)
+  collect {
+    input (placeUrl) {
+      type (PlaceUrl)
+      min (Optional) max (One)
+    }
+  }
+  output (HospitalUrl)
+}
+// action (CallHospital) {
+//   description (URL을 통하여 app-lauch를 실행하는 action입니다)
+//   type(Constructor)
+//   collect {
+//     input (tel) {
+//       type (HospitalPhone)
+//       min (Optional) max (One)
+//     }
+//   }
+//   output (HospitalPhone)
+// }

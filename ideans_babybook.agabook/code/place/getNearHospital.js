@@ -1,58 +1,59 @@
 
-// 내위치를 기반으로 Naver Place API 호출하여 소아과 5곳을 
-
+// 내위치를 기반으로 Daum Place API 호출하여 소아과 5곳을 
 var http = require('http');
 var console = require('console');
-var config = require('config');
 var fail = require('fail');
 
 module.exports.function = function getNearHospital (pointPair) {
-  const NAVER_CLIENT_ID     = 'etz33vqbyp';
-  var secretValue = secret.get('SECRETKEY');
 
-  var location_str = pointPair.longitude + ',' + pointPair.latitude;
+  var kakao_key = 'KakaoAK 54674a3caaf700359fd2fd5233c81b4c';
 
   let options = { 
     format: 'json',
     headers: {
-      'X-NCP-APIGW-API-KEY-ID':NAVER_CLIENT_ID,
-      'X-NCP-APIGW-API-KEY': secretValue
+      'Authorization': kakao_key
     },
     query: {
-      query :'소아과',      //검색 텍스트
-      coordinate : location_str    //검색 시작 위치 '126.827496,37.567910'
-      //orderBy:'popularity'    //  weight: 내부 알고리즘에 따른 순서(기본값), popularity: 인기순
-    }
+      //query :'소아과',      //검색 텍스트
+      x : pointPair.longitude,
+      y : pointPair.latitude,
+      radius: 2000    //검색 시작 위치 '126.827496,37.567910'
+    },
+    encoding:'utf-8'
   };
 
 
-  let ret_json = http.getUrl('https://naveropenapi.apigw.ntruss.com/map-place/v1/search?', options);
+  let ret_json = http.getUrl('https://dapi.kakao.com/v2/local/search/keyword.json?query=소아과', options);
 
-  if (ret_json.status != "OK") {
-    throw Error ("APIError"); // 맞나 모르겠넹...
+  console.log("all json str: " + ret_json);
   
-  } else {
-    console.log("all json str: " + ret_json);
-    console.log("first item name: " + ret_json.places[0].name);
+  var cnt = ret_json.meta.total_count;  // json hospital counts
+  var name_list = [];
+  var address_list = [];
+  var phone_list = [];
+  var url_list = []; 
+  var x_list = [];
+  var y_list = [];
 
-    var cnt = ret_json.meta.count;  // json hospital counts
-    var name_list = [];
-    var address_list = [];
-    var phone_list = [];
-
-
-    for (var i=0; i<cnt; i++) {
-      name_list.push(ret_json.places[i].name);
-      address_list.push(ret_json.places[i].road_address);
-      phone_list.push(ret_json.places[i].phone_number);
-    }
-
-    return {
-      hospitalName : name_list,
-      hospitalAddress : address_list,   //도로주소
-      hospitalPhone: phone_list
-    };
-
+  for (var i=0; i<cnt-3; i++) {
+    console.log(ret_json.documents[i]);
+    name_list.push(ret_json.documents[i].place_name);
+    console.log(ret_json.documents[i].place_name);
+    address_list.push(ret_json.documents[i].road_address_name);
+    phone_list.push(ret_json.documents[i].phone);
+    url_list.push(ret_json.documents[i].place_url);
+    x_list.push(ret_json.documents[i].x);
+    y_list.push(ret_json.documents[i].y);
+    // console.log(ret_json.documents[i]);
   }
+
+  return {
+    hospitalName : name_list,
+    hospitalAddress : address_list,   //도로주소
+    hospitalPhone: phone_list,
+    placeUrl : url_list,
+    xcoordinates : x_list,
+    ycoordinates: y_list
+  };
   
 }

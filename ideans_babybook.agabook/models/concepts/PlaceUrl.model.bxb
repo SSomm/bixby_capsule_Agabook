@@ -1,0 +1,3 @@
+text (PlaceUrl) {
+  description (Daum Place URL 주소를 담을 text)
+}

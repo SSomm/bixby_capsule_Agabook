@@ -16,9 +16,19 @@ structure (HospitalInfo) {
     min (Optional) max (Many)
   }
 
-  // property (distance) {
-  //   type (Distance)
-  //   min (Optional) max (One)
-  // }
+ property (placeUrl) {
+    type (PlaceUrl)
+    min (Optional) max (Many)
+  }
+
+  property (xcoordinate) {
+    type (XCoordinate)
+    min (Optional) max (Many)
+  }
+
+    property (ycoordinate) {
+    type (YCoordinate)
+    min (Optional) max (Many)
+  }
 
 }

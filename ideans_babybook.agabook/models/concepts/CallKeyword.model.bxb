@@ -1,0 +1,4 @@
+enum (CallKeyword) {
+  description (전화걸기발화와 관련된 여러가지 단어들의 모음)
+  symbol (전화해줘)
+}

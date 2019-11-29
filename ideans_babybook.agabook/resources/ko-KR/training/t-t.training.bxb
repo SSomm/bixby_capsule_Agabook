@@ -8,8 +8,3 @@ train (t-tsmpbcmhrtdbjcsfn5yxbwbtk) {
   plan (Y2BjUC7ISaxML8ovzUvRS0pMqkzKz8/W801NLC4tSs1NzSvxzEvLZ9DCpsgpNT0zD0llcGpiUXIGgzg2tY7pqQxS2CTcU/NSUosY1Ai4wju1sjy/KIVBEZs6iMUwJawMjAxMDMwMLEAWA5ANgwiAogIA)
   last-modified (1572256143819)
 }
-train (t-tzxezgzhk0a4quwyuk4f7mcwe) {
-  utterance ("[g:GetHospLink] (강서구)[v:HospitalAddress] (미소의원)[v:HospitalName] 검색해줘")
-  plan (Y2BhUMtMSU3MK45PSkyqTMrPz9ZLTE8E0x75xQUuqSWJmTmeeWn5DMq41LmnloCU+mTmZTOo4zMssyQxxzElpSi1uJhBhZBCv8TcVAZmBkYGJiDJAKRBEALgogA=)
-  last-modified (1574414262658)
-}

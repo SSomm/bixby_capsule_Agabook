@@ -1,0 +1,4 @@
+enum (LinkKeyword) {
+  description (상세페이지로 가는 키워드 단어 모음)
+  symbol (디테일 알려줘)
+}

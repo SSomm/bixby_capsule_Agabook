@@ -1,35 +1,149 @@
-// result-view {
-//   match: hospitalInfo(this.Mealtype)
+result-view {
+  match: HospitalInfo(this)
   
-//   message {
-//     template ("[#{value(age)}] 이유식 레시피입니다."){
-//       speech ("[#{value(age)}] 이유식 레시피는 [#{value(meal_type)}]이 있습니다.")
-//     }
-//   }
+  message {
+    template ("주변 병원 정보 리스트 입니다."){
+      speech ("아래에서 병원 정보를 확인해보세요.")
+    }
+  }
   
-//   render {
-//     if(size(meal_type)>=0){
-//       list-of (meal_type){
-//         where-each (item){
-//           layout-macro (result_details) {
-//           //  param (mealType) {
-//           //   expression (meal_type)
-//           // }
-//          }
-//         }
-//       }
-    
-//     }
-    
-//   }
+  render {
+    if(size(this.hospitalName)>1){
+          layout{
+      section{
+        content{
+          for-each(hospitalName){
+            as(item){
+              thumbnail-card{
+            image-position (Start)
+            title-area{
+              slot1{
+                text("#{value(hospitalName[i])}")
+              }
+              slot2{
+                paragraph("#{value(hospitalPhone[i])}")
+                
+              }
+              slot3{
+                paragraph("#{value(hospitalAddress[i])}")
+              }
+            }
+            
+            image-url("images/babyhospital.png")
+            on-click{
+              
+             intent{
+                goal: GetHospDetail
+                value: $expr(hospitalAddress[i])
+                value: $expr(hospitalName[i])
+                value: $expr(hospitalPhone[i])
+                value: $expr(placeUrl[i])
+                value: $expr(xcoordinate[i])
+                value: $expr(ycoordinate[i])
+              }
+              }
+            }
+          
+            } 
+          }
+          
+        }
 
-//   conversation-drivers{
-//     conversation-driver{
-//       template ("이유식 만들 때 주의사항은?")
-//   }
-//   conversation-driver{
-//       template ("소금간 해도 돼?")
-//   }
-// }
+      }
+    }
+    }else{
+        layout{
+    section{
+      content{
+        single-line{
+          text{
+            value("[#{value(this.hospitalName)}]")
+            style(Title_M)
+          }
+        }
+       
+      image-card{
+        title-area{
+          slot1{
+            text{
+          value("[#{value(hospitalName)}]")
+            }
+          }
+          slot2{
+            paragraph("[#{value(this.hospitalPhone)}]")
+          }
+           
+        }
+       
+        image-url("images/reception.png")
+      }
+      divider
+      
+      paragraph{
+        value("주소 : [#{value(this.hospitalAddress)}]"){}
+        
+      }
 
-// }
+      title-card{ 
+        // image-position (Start)
+        
+        title-area{
+          slot1{
+            text{
+              value("[#{value(this.hospitalPhone)}]")
+              style(Title_M)
+            }
+          }
+          slot2{
+            paragraph{
+              value("클릭하여 전화걸기")
+            }
+          }
+        }
+         on-click{
+            intent{
+              goal:CallHospital
+              value:$expr(hospitalPhone)
+            }
+          }
+        // image-url("images/babyhospital.png")
+        }
+        title-card{
+          title-area{
+            slot1{
+              single-line{
+              text("병원 상세 정보 확인해보기")
+              }
+            }
+          }
+          on-click{
+            intent{
+              goal:Weblink
+              value:$expr(placeUrl)
+            }
+            
+
+            // app-launch{
+            //      payload-uri ("#{value(placeUrl)}")
+
+            // }
+          }
+        }
+      }    
+      }
+    }
+
+        
+  }
+
+  }
+  conversation-drivers{
+    if(size(this.hospitalName)>1){
+       conversation-driver{
+      template ("#{value(hospitalName[0])} 자세히 알려줘")
+      }
+    }
+  
+}
+}
+

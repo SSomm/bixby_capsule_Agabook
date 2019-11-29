@@ -40,8 +40,8 @@ endpoints {
     }
 
         // Added by H.Kim - to get detailed link  11/19/2019
-    action-endpoint (GetHospLink) {
-      accepted-inputs (hospAddress, hospName, hospPhone)
+    action-endpoint (GetHospDetail) {
+      accepted-inputs (hospName, hospAddress, hospPhone, placeUrl, xcoordinate, ycoordinate)
       local-endpoint (place/getDetailLink.js)
     }
 
@@ -50,6 +50,10 @@ endpoints {
       local-endpoint (place/callHospital.js)
     }
 
+    action-endpoint (Weblink){
+      accepted-inputs(placeUrl)
+      local-endpoint(place/webpage.js)
+    }
 
     // action-endpoint (__ACTION_NAME__) {
     //   accepted-inputs (__LIST_OF_ACTION_INPUTS__)

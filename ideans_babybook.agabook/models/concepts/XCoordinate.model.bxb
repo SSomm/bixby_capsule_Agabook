@@ -1,0 +1,3 @@
+text (XCoordinate) {
+  description (X 좌표를 저장한는 TEXT)
+}

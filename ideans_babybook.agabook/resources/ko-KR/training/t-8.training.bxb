@@ -3,11 +3,6 @@ train (t-85tu20915qktu46dkjr76jbak) {
   plan (Y2BjUM9MSU3MK45PSkyqTMrPz9ZLTE8E076picWlRam5qXklnnlp+Qx6uBQ6paZn5iGpDk5NLErOYJDGpd4xPZVBDpeke2peSmoRgxYRrvJOrSzPL0phUMWlFuIQmDJWBkYGJgZmBhYgiwHIhkEEQFEBAA==)
   last-modified (1572271109813)
 }
-train (t-891tbej5kga6h8nm0o7ty4i10) {
-  utterance ("[g:GetHospitals] (내 주변)[v:geo.GeoPoint] 병원 알려줘")
-  plan (Y2BmUMlMSU3MK45PSkyqTMrPz9ZLTE8E0x75xQWZJYk5nnlp+bhVuaeWwBQWMwiUZZbppafmA0XzA/Iz80oYmBgYgZgBSDIygACUDwA=)
-  last-modified (1574414271341)
-}
 train (t-8fxt9tlcxxxuldhrmjv8d6472) {
   utterance ("[g:CallHospital] (01023180976)[v:HospitalPhone] 전화해줘")
   plan (Y2BmUM1MSU3MK45PSkyqTMrPz9ZLTE8E0x75xQWZJYk5ARn5eakMKriUOSfm5MCUEmsYEwMjEDMASUYGEIDyAQ==)

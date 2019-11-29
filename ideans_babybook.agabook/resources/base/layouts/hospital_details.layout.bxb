@@ -1,15 +1,33 @@
-// layout {
-//   match: __CONCEPT__ (this)
-//   mode (Summary)
+layout-macro-def(hospital_details) {
+  params{
+    param (hospitalName){
+      type(HospitalName)
+    }
+      param (hospitalAddress){
+      type(HospitalAddress)
+    }
+      param (hospitalPhone){
+      type(HospitalPhone)
+    }
+  }
 
-//   content {
-//     section {
-//       content {
-//         paragraph {
-//           value ("#{value(this)}")
-//           style (Title_L)
-//         }
-//       }
-//     }
-//   }
-// }
+  content{
+          thumbnail-card{
+            image-position (Start)
+            title-area{
+              slot1{
+                text("[#{value(hospitalName)}]")
+              }
+              slot2{
+                paragraph("[#{value(hospitalAddress)}]")
+              }
+              slot3{
+                paragraph("[#{value(hospitalPhone)}]")
+              }
+            }
+            image-url("images/babyhospital.png")
+          }
+        }
+
+
+}

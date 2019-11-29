@@ -1,0 +1,3 @@
+text (HospName) {
+  description (병원이름)
+}

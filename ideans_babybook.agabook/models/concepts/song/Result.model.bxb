@@ -1,3 +1,15 @@
-text (Result) {
-  description (For confirmation on whether audio was played successfully or not)
+structure (Result) {
+ property (albumName) {
+  type (AlbumName)
+ }
+ property (artist) {
+  type (Artist)
+ }
+ property (title) {
+  type (Title)
+ }
+
+ property (imgUrl) {
+   type(ImgUrl)
+ }
 }

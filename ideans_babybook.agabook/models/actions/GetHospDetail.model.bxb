@@ -1,4 +1,4 @@
-action (GetHospLink) {
+action (GetHospDetail) {
   type(Search)
   description (원하는 병원에 대한 정보를 알려준다)
   collect {
@@ -17,6 +17,20 @@ action (GetHospLink) {
       min (Optional) max (One)
     }
 
+    input (placeUrl) {
+      type (PlaceUrl)
+      min (Optional) max (One)
+    }
+
+    input (xcoordinate) {
+      type (XCoordinate)
+      min (Optional) max (One)
+    }
+
+    input (ycoordinate) {
+      type (YCoordinate)
+      min (Optional) max (One)
+    } 
   }
-  output (HospitalInfo)
+  output (HospDetailInfo)
 }

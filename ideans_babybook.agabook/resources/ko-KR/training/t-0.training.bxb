@@ -1,3 +1,8 @@
+train (t-0e4jlhjmiy7dgtr0aextjcw9j) {
+  utterance ("[g:GetHospitals] 주변 (소아과)[v:HospitalKeyword:병원] (알려줘)[v:SearchKeyword:검색]")
+  plan (Y2BhUMlMSU3MK45PSkyqTMrPz9ZLTE8E0x75xQWZJYk5nnlp+bhVuaeWwBQWM6gTMss7tbI8vyiFQRWXwuDUxKLkDJgyRiBkAGNmIMkEJBkA)
+  last-modified (1574990254490)
+}
 train (t-0ezvstrjfete6ykgbnch6nh3z) {
   utterance ("[g:BeginMeasurementSearch] (5달)[v:Age:5개월] 된 (여자)[v:Gender:여] 애 평균 (키)[v:MeasurementKeyword:키] (알려줘)[v:SearchKeyword:검색]")
   plan (Y2BjUC7ISaxML8ovzUvRS0pMqkzKz8/W801NLC4tSs1NzSvxzEvLZ9DCpsgpNT0zD0llcGpiUXIGgzg2tY7pqQxS2CTcU/NSUosY1Ai4wju1sjy/KIVBEZs6iMUwJawMjAxMDMwMLEAWA5ANgwiAogIA)

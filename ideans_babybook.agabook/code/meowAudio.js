@@ -10,7 +10,7 @@ const audioItems = [{
     subtitle: "Was mir behagt, ist nur die muntre Jagd",
     artist: "바흐",
     albumName: "자장가",
-    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/album_cover.png"
+    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/albumArt_bach.png"
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ const audioItems = [{
     subtitle: "Romanze In F",
     artist: "브람스",
     albumName: "자장가",
-    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/album_cover.png"
+    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/albumArt_brhams.png"
   },
   {
     id: 3,
@@ -37,7 +37,7 @@ const audioItems = [{
     title: "Chopin_ Prelude No. 2",
     albumName: "자장가",
     artist: "쇼팽",
-    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/album_cover.png"
+    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/albumArt_chopin.png"
 
   },
   {
@@ -51,7 +51,7 @@ const audioItems = [{
     title: "Chopin_24 Preludes, Op. 28 No. 13",
     albumName: "자장가",
     artist: "쇼팽",
-    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/album_cover.png"
+    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/albumArt_chopin.png"
 
   },
   {
@@ -65,7 +65,7 @@ const audioItems = [{
     title: "Chopin_Nocturnes Op.9 No.2 in E Flat Major",
     albumName: "자장가",
     artist: "쇼팽",
-    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/album_cover.png"
+    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/albumArt_chopin.png"
 
   },
   {
@@ -79,7 +79,7 @@ const audioItems = [{
     title: "	Debussy_ Préludes, Book 1- La fille aux cheveux de lin",
     albumName: "자장가",
     artist: "드뷔시",
-    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/album_cover.png"
+    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/albumArt_debussy.png"
 
   },
   {
@@ -93,7 +93,7 @@ const audioItems = [{
     title: "	Johann Sebastian Bach_Prelude No. 1 In C Major, BWV 846, From The Well-Tempered Clavier",
     albumName: "자장가",
     artist: "Johann Sebastian Bach_",
-    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/album_cover.png"
+    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/albumArt_bach.png"
 
   },
   {
@@ -107,7 +107,7 @@ const audioItems = [{
     title: "Liszt_ Six Consolations, S. 172, No. 3_ Lento, Placido",
     albumName: "자장가",
     artist: "Liszt_",
-    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/album_cover.png"
+    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/albumArt_Liszt.png"
 
   },
   {
@@ -135,7 +135,7 @@ const audioItems = [{
     title: "Mozart_Concerto No. 26 in D Major, K537 Coronation_ II. Larghetto",
     albumName: "자장가",
     artist: "Mozart",
-    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/album_cover.png"
+    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/albumArt_mozart.png"
 
   },
   {
@@ -149,7 +149,7 @@ const audioItems = [{
     title: "Mozart_Piano Sonata No 16 (KV 545)_II. Andante",
     albumName: "자장가",
     artist: "Mozart",
-    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/album_cover.png"
+    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/albumArt_mozart.png"
 
   },
   {
@@ -163,7 +163,7 @@ const audioItems = [{
     title: "Schumann_Träumerei op. 15 No. 7 in F major from Kinderszenen",
     albumName: "자장가",
     artist: "Schumann",
-    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/album_cover.png"
+    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/albumArt_shumann.png"
 
   },
   {
@@ -174,10 +174,10 @@ const audioItems = [{
         format: "mp3"
       }
     ],
-    title: "Schumann_Träumerei op. 15 No. 7 in F major from Kinderszenen",
-    albumName: "뽀로로",
-    artist: "뽀로로로",
-    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/album_cover.png"
+    title: "어른들은 몰라요",
+    albumName: "뽀로로 ost",
+    artist: "뽀로로",
+    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/album_cover_bbororo.png"
 
   },
   {
@@ -338,7 +338,7 @@ const audioItems = [{
     id: 25,
     stream: [
       {
-        url: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/%E1%84%82%E1%85%A1%E1%84%86%E1%85%AE%E1%84%8B%E1%85%A3.mp3",
+        url: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/%E1%84%82%E1%85%A1%E1%84%86%E1%85%AE%E1%84%8B%E1%85%A3.wav",
         format: "mp3"
       }
     ],
@@ -366,21 +366,7 @@ const audioItems = [{
     id: 27,
     stream: [
       {
-        url: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/%E1%84%82%E1%85%A1%E1%84%86%E1%85%AE%E1%84%8B%E1%85%A3.mp3",
-        format: "mp3"
-      }
-    ],
-    title: "나무야",
-    albumName: "동요",
-    artist: "차용운",
-    albumArtUrl: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/album_cover.png"
-
-  },
-  {
-    id: 28,
-    stream: [
-      {
-        url: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/%E1%84%89%E1%85%A2%E1%86%A8%E1%84%8E%E1%85%B5%E1%86%AF%20%E1%84%82%E1%85%A9%E1%86%AF%E1%84%8B%E1%85%B5.mp3",
+        url: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/%E1%84%89%E1%85%A2%E1%86%A8%E1%84%8E%E1%85%B5%E1%86%AF%20%E1%84%82%E1%85%A9%E1%86%AF%E1%84%8B%E1%85%B5_.mp3",
         format: "mp3"
       }
     ],
@@ -391,7 +377,7 @@ const audioItems = [{
 
   },
   {
-    id: 29,
+    id: 28,
     stream: [
       {
         url: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/%E1%84%89%E1%85%A6%E1%84%89%E1%85%A1%E1%86%BC%E1%84%8B%E1%85%B3%E1%86%AB%20%E1%84%82%E1%85%A9%E1%86%AF%E1%84%8B%E1%85%B5%E1%84%90%E1%85%A5.mp3",
@@ -405,7 +391,7 @@ const audioItems = [{
 
   },
   {
-    id: 30,
+    id: 29,
     stream: [
       {
         url: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/%E1%84%8A%E1%85%A1%E1%86%A8%E1%84%8B%E1%85%B5%E1%84%8A%E1%85%A1%E1%86%A8%E1%84%8B%E1%85%B5%20%E1%84%82%E1%85%A1%E1%84%82%E1%85%A6%E1%84%8B%E1%85%AD.wav",
@@ -419,7 +405,7 @@ const audioItems = [{
 
   },
   {
-    id: 31,
+    id: 30,
     stream: [
       {
         url: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/%E1%84%8B%E1%85%A5%E1%86%AF%E1%84%80%E1%85%AE%E1%86%AF%E1%84%8B%E1%85%B3%E1%86%AF%20%E1%84%80%E1%85%B3%E1%84%85%E1%85%A7%E1%84%8B%E1%85%AD.mp3",
@@ -433,7 +419,7 @@ const audioItems = [{
 
   },
   {
-    id: 32,
+    id: 31,
     stream: [
       {
         url: "https://kr.object.ncloudstorage.com/ideans-agabook/dongyo/%E1%84%8E%E1%85%AE%E1%86%B7%E1%84%8B%E1%85%B3%E1%86%AF%20%E1%84%8E%E1%85%AE%E1%84%86%E1%85%A7%20%E1%84%8F%E1%85%A9%E1%86%BC%E1%84%8F%E1%85%A9%E1%86%BC%E1%84%8F%E1%85%A9%E1%86%BC.mp3",

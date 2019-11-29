@@ -4,7 +4,7 @@ action (BuildMeowAudioInfo) {
   collect {
     input (meowAudio) {
       type (MeowAudio)
-      min (Required) max (Many)
+      min (Optional) max (Many)
       default-init {
         intent {
           goal: FindMeow

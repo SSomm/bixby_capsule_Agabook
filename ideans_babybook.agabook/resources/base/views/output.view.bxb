@@ -129,12 +129,12 @@ result-view {
  conversation-drivers{
    if(exists(this.possibleEats)){
      conversation-driver{
-     template ("[#{value(age)}] 아기 이유식 알려줘.")
+     template ("[#{value(age)}] 이유식 알려줘.")
     }
    }  
    else-if (exists(this.recipeSteps)){
      conversation-driver{
-     template ("6개월 아기 사과 먹어도 돼?")
+     template ("6개월 사과 먹어도 돼?")
     }
    }
    else{

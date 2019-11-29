@@ -1,0 +1,89 @@
+result-view {
+  match: HospDetailInfo(this)
+  
+  message {
+    template ("[#{value(this.hospName)}] 정보 입니다."){
+      speech ("아래 url을 클릭해 확인해보세요.")
+    }
+  }
+
+render{
+
+  layout{
+    section{
+      content{
+        single-line{
+          text{
+            value("[#{value(this.hospName)}]")
+            style(Title_M)
+          }
+        }
+       
+      image-card{
+        title-area{
+          slot1{
+            text{
+          value("[#{value(this.hospName)}]")
+            }
+          }
+          slot2{
+            paragraph("[#{value(this.hospPhone)}]")
+          }
+           
+        }
+       
+        image-url("images/reception.png")
+      }
+      divider
+      
+      paragraph{
+        value("주소 : [#{value(this.hospitalAddress)}]"){}
+        
+      }
+
+      title-card{ 
+        // image-position (Start)
+        
+        title-area{
+          slot1{
+            text{
+              value("[#{value(this.hospPhone)}]")
+              style(Title_M)
+            }
+          }
+          slot2{
+            paragraph{
+              value("클릭하여 전화걸기")
+            }
+          }
+        }
+         on-click{
+            intent{
+              goal:CallHospital
+              value:$expr(hospPhone)
+            }
+          }
+        // image-url("images/babyhospital.png")
+        }
+        title-card{
+          title-area{
+            slot1{
+              single-line{
+              text("병원 상세 정보 확인해보기")
+              }
+            }
+          }
+          on-click{
+          intent{
+              goal:Weblink
+              value:$expr(hospDetailLink)
+            }
+            }
+          }
+        }
+      }
+      
+
+      }
+    }
+}
